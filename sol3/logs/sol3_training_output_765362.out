@@ -1,0 +1,11 @@
+=== STARTING JOB: Thu Sep 25 15:51:17 CEST 2025 ===
+Job is running on node: hgx2
+Conda initialized.
+Using temporary raid directory: /raid/users/inf151561/sol3_job_765362
+Running preprocessing script, outputting to /raid/users/inf151561/sol3_job_765362/train_tiles...
+====================
+Starting Preprocessing Stage
+====================
+Successfully loaded ../data/train.csv with 754 records.
+Tiling images from: ../data/train
+Saving 16 tiles per image to: /raid/users/inf151561/sol3_job_765362/train_tiles

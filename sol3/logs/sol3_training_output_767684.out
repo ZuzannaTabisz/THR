@@ -1,0 +1,6 @@
+=== STARTING JOB: Fri Sep 26 21:44:44 CEST 2025 ===
+Job is running on node: hgx1
+Conda initialized.
+Permanent tile storage: /home/inf151561/sol3/train_tiles_permanent
+Temporary /raid tile storage for this job: /raid/users/inf151561/sol3_job_767684/train_tiles
+Verifying PyTorch can access the GPU...

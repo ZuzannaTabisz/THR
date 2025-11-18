@@ -1,0 +1,8 @@
+=== STARTING JOB: Wed Sep 24 20:30:19 CEST 2025 ===
+Job is running on node: hgx2
+Conda initialized.
+Using temporary raid directory: /raid/users/inf151561/sol3_job_765354
+Running preprocessing script, outputting to /raid/users/inf151561/sol3_job_765354/train_tiles...
+Running training script, reading from /raid/users/inf151561/sol3_job_765354/train_tiles...
+=== JOB FINISHED: Wed Sep 24 20:30:25 CEST 2025 ===
+Cleaning up temporary directory: /raid/users/inf151561/sol3_job_765354

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/inf151561/sol3/train.py", line 185, in <module>
+    run_training(args)
+  File "/home/inf151561/sol3/train.py", line 131, in run_training
+    for fold, (_, val_idx) in enumerate(skf.split(df_for_split, df_for_split['label'], df_for_split['patient_id'])):
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/sklearn/model_selection/_split.py", line 404, in split
+    raise ValueError(
+ValueError: Cannot have number of splits n_splits=5 greater than the number of samples: n_samples=0.

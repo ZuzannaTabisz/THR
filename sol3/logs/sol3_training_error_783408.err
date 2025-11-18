@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/home/inf151561/sol3/train.py", line 217, in <module>
+    run_training(args)
+  File "/home/inf151561/sol3/train.py", line 143, in run_training
+    image_df = parse_images(cfg.image_dir)
+  File "/home/inf151561/sol3/utils.py", line 55, in parse_images
+    df['instance_id'] = df['image_path'].apply(lambda x: int(x.split('_')[-1].replace('.jpg', '')))
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/pandas/core/series.py", line 4928, in apply
+    return SeriesApply(
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/pandas/core/apply.py", line 1422, in apply
+    return self.apply_standard()
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/pandas/core/apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/pandas/core/base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/pandas/core/algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "/home/inf151561/sol3/utils.py", line 55, in <lambda>
+    df['instance_id'] = df['image_path'].apply(lambda x: int(x.split('_')[-1].replace('.jpg', '')))
+ValueError: invalid literal for int() with base 10: 'CE'

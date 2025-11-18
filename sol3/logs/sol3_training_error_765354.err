@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/pyvips/__init__.py", line 30, in <module>
+    import _libvips
+ModuleNotFoundError: No module named '_libvips'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/inf151561/sol3/preprocess.py", line 4, in <module>
+    from utils import save_dataset
+  File "/home/inf151561/sol3/utils.py", line 2, in <module>
+    import pyvips
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/pyvips/__init__.py", line 62, in <module>
+    vips_lib = ffi.dlopen(library_name('vips', 42))
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/cffi/api.py", line 150, in dlopen
+    lib, function_cache = _make_ffi_library(self, name, flags)
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/cffi/api.py", line 834, in _make_ffi_library
+    backendlib = _load_backend_lib(backend, libname, flags)
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/cffi/api.py", line 829, in _load_backend_lib
+    raise OSError(msg)
+OSError: cannot load library 'libvips.so.42': libvips.so.42: cannot open shared object file: No such file or directory.  Additionally, ctypes.util.find_library() did not manage to locate a library called 'libvips.so.42'
+Traceback (most recent call last):
+  File "/home/inf151561/sol3/train.py", line 9, in <module>
+    import torch
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/__init__.py", line 367, in <module>
+    from torch._C import *  # noqa: F403
+ImportError: /home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so: undefined symbol: iJIT_NotifyEvent

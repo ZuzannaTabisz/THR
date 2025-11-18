@@ -1,0 +1,1532 @@
+=== STARTING JOB: Tue Nov 18 03:05:20 CET 2025 ===
+Job is running on node: hgx1
+Conda initialized.
+Permanent tile storage: /home/inf151561/sol3/train_tiles_permanent
+Temporary /raid tile storage for this job: /raid/users/inf151561/sol3_job_783388/train_tiles
+Verifying PyTorch can access the GPU...
+CUDA is available. GPU Name: NVIDIA A100-SXM4-80GB
+Cleaning Python __pycache__ directories...
+Verification successful.
+Permanent tile directory not found or empty. Running preprocessing...
+====================
+Starting Preprocessing Stage
+====================
+Successfully loaded ../data/train.csv with 754 records.
+Found 754 images to process.
+[1/754] Start d7dcea_0.tif (25216x52532)
+[1/754] Finished d7dcea_0.tif. Saved 21 tiles. Time: 17.4s
+[2/754] Start 616c62_0.tif (20840x49796)
+[2/754] Finished 616c62_0.tif. Saved 519 tiles. Time: 16.1s
+[3/754] Start 52bc2d_0.tif (31857x49745)
+[3/754] Finished 52bc2d_0.tif. Saved 4 tiles. Time: 21.6s
+[4/754] Start f95d8b_0.tif (27476x43310)
+[4/754] Finished f95d8b_0.tif. Saved 710 tiles. Time: 19.6s
+[5/754] Start 45a0e5_0.tif (15410x29532)
+[5/754] Finished 45a0e5_0.tif. Saved 4 tiles. Time: 6.3s
+[6/754] Start 4919a7_0.tif (26225x74660)
+[6/754] Finished 4919a7_0.tif. Saved 1087 tiles. Time: 31.8s
+[7/754] Start f322da_0.tif (20784x61781)
+[7/754] Finished f322da_0.tif. Saved 1367 tiles. Time: 23.3s
+[8/754] Start 41b23c_0.tif (31852x51591)
+[8/754] Finished 41b23c_0.tif. Saved 1627 tiles. Time: 29.2s
+[9/754] Start f8712b_0.tif (17601x35984)
+[9/754] Finished f8712b_0.tif. Saved 242 tiles. Time: 9.4s
+[10/754] Start bc9536_0.tif (20905x35044)
+[10/754] Finished bc9536_0.tif. Saved 510 tiles. Time: 11.8s
+[11/754] Start e10f49_0.tif (18008x54326)
+[11/754] Finished e10f49_0.tif. Saved 48 tiles. Time: 13.2s
+[12/754] Start 78c1c9_0.tif (20986x15675)
+[12/754] Finished 78c1c9_0.tif. Saved 489 tiles. Time: 6.5s
+[13/754] Start 8a17b7_0.tif (12070x36924)
+[13/754] Finished 8a17b7_0.tif. Saved 344 tiles. Time: 7.4s
+[14/754] Start f5ce23_0.tif (79759x21077)
+[14/754] Finished f5ce23_0.tif. Saved 1398 tiles. Time: 29.5s
+[15/754] Start 424c9d_0.tif (27306x80189)
+[15/754] Finished 424c9d_0.tif. Saved 2569 tiles. Time: 40.1s
+[16/754] Start 4dfe1e_0.tif (15390x34142)
+[16/754] Finished 4dfe1e_0.tif. Saved 135 tiles. Time: 7.8s
+[17/754] Start 383f05_0.tif (21975x41492)
+[17/754] Finished 383f05_0.tif. Saved 1610 tiles. Time: 19.1s
+[18/754] Start 2e8763_0.tif (13206x26770)
+[18/754] Finished 2e8763_0.tif. Saved 18 tiles. Time: 5.0s
+[19/754] Start d53ab7_0.tif (41664x70897)
+[19/754] Finished d53ab7_0.tif. Saved 3191 tiles. Time: 53.2s
+[20/754] Start 983df1_0.tif (35228x34050)
+[20/754] Finished 983df1_0.tif. Saved 1065 tiles. Time: 20.3s
+[21/754] Start d7dc3e_0.tif (8834x37792)
+[21/754] Finished d7dc3e_0.tif. Saved 117 tiles. Time: 5.6s
+[22/754] Start 5bfaf8_0.tif (67795x30120)
+[22/754] Finished 5bfaf8_0.tif. Saved 1086 tiles. Time: 38.2s
+[23/754] Start 29b1b7_0.tif (22003x34112)
+[23/754] Finished 29b1b7_0.tif. Saved 483 tiles. Time: 11.8s
+[24/754] Start f9c105_0.tif (37885x18876)
+[24/754] Finished f9c105_0.tif. Saved 503 tiles. Time: 13.7s
+[25/754] Start cb2534_1.tif (28628x30389)
+[25/754] Finished cb2534_1.tif. Saved 1223 tiles. Time: 17.3s
+[26/754] Start 5ae30a_0.tif (51843x17631)
+[26/754] Finished 5ae30a_0.tif. Saved 589 tiles. Time: 15.8s
+[27/754] Start fb8bf8_0.tif (49849x19714)
+[27/754] Finished fb8bf8_0.tif. Saved 903 tiles. Time: 18.0s
+[28/754] Start f4287c_0.tif (29909x24958)
+[28/754] Finished f4287c_0.tif. Saved 247 tiles. Time: 11.6s
+[29/754] Start 0468a8_1.tif (35204x40510)
+[29/754] Finished 0468a8_1.tif. Saved 2884 tiles. Time: 31.1s
+[30/754] Start f9fc6b_1.tif (28692x16554)
+[30/754] Finished f9fc6b_1.tif. Saved 362 tiles. Time: 7.8s
+[31/754] Start 91fee7_0.tif (11127x16618)
+[31/754] Finished 91fee7_0.tif. Saved 34 tiles. Time: 2.7s
+[32/754] Start 32e44f_0.tif (7814x4470)
+[32/754] Finished 32e44f_0.tif. Saved 9 tiles. Time: 0.7s
+[33/754] Start 34c9bc_0.tif (22020x31349)
+[33/754] Finished 34c9bc_0.tif. Saved 769 tiles. Time: 12.5s
+[34/754] Start b342b0_0.tif (36176x70934)
+[34/754] Finished b342b0_0.tif. Saved 1871 tiles. Time: 43.1s
+[35/754] Start 4f6fb1_3.tif (10979x35086)
+[35/754] Finished 4f6fb1_3.tif. Saved 614 tiles. Time: 7.9s
+[36/754] Start 0ed87f_0.tif (6285x19149)
+[36/754] Finished 0ed87f_0.tif. Saved 59 tiles. Time: 2.1s
+[37/754] Start 1d6d4f_0.tif (17585x38748)
+[37/754] Finished 1d6d4f_0.tif. Saved 778 tiles. Time: 12.6s
+[38/754] Start 026c97_0.tif (10533x8267)
+[38/754] Finished 026c97_0.tif. Saved 179 tiles. Time: 2.7s
+[39/754] Start 7cf058_0.tif (21949x47023)
+[39/754] Finished 7cf058_0.tif. Saved 908 tiles. Time: 17.5s
+[40/754] Start bd783d_1.tif (12105x29548)
+[40/754] Finished bd783d_1.tif. Saved 206 tiles. Time: 5.7s
+[41/754] Start 488cd4_0.tif (28505x59902)
+[41/754] Finished 488cd4_0.tif. Saved 1431 tiles. Time: 28.1s
+[42/754] Start f05449_0.tif (69789x33982)
+[42/754] Finished f05449_0.tif. Saved 2463 tiles. Time: 49.1s
+[43/754] Start 20914b_0.tif (37885x21769)
+[43/754] Finished 20914b_0.tif. Saved 919 tiles. Time: 15.5s
+[44/754] Start 533081_2.tif (16516x31377)
+[44/754] Finished 533081_2.tif. Saved 246 tiles. Time: 7.9s
+[45/754] Start f2c002_0.tif (12072x36924)
+[45/754] Finished f2c002_0.tif. Saved 276 tiles. Time: 7.1s
+[46/754] Start d8a746_0.tif (35891x27627)
+[46/754] Finished d8a746_0.tif. Saved 962 tiles. Time: 18.7s
+[47/754] Start 8e0244_0.tif (17665x20308)
+[47/754] Finished 8e0244_0.tif. Saved 765 tiles. Time: 8.0s
+[48/754] Start 9eda1d_0.tif (16416x51657)
+[48/754] Finished 9eda1d_0.tif. Saved 440 tiles. Time: 13.4s
+[49/754] Start c42387_0.tif (9683x32984)
+[49/754] Finished c42387_0.tif. Saved 176 tiles. Time: 5.1s
+[50/754] Start 868720_0.tif (51843x32248)
+[50/754] Finished 868720_0.tif. Saved 899 tiles. Time: 26.7s
+[51/754] Start f75146_1.tif (24144x39611)
+[51/754] Finished f75146_1.tif. Saved 103 tiles. Time: 13.4s
+[52/754] Start d74701_1.tif (23161x23046)
+[52/754] Finished d74701_1.tif. Saved 293 tiles. Time: 8.7s
+[53/754] Start 8b3323_0.tif (6285x21005)
+[53/754] Finished 8b3323_0.tif. Saved 75 tiles. Time: 2.5s
+[54/754] Start 04f7a4_0.tif (16470x38747)
+[54/754] Finished 04f7a4_0.tif. Saved 579 tiles. Time: 11.2s
+[55/754] Start e5f672_0.tif (30797x64597)
+[55/754] Finished e5f672_0.tif. Saved 540 tiles. Time: 28.8s
+[56/754] Start a4e918_0.tif (13209x29543)
+[56/754] Finished a4e918_0.tif. Saved 527 tiles. Time: 7.8s
+[57/754] Start 0bd414_0.tif (14293x34150)
+[57/754] Finished 0bd414_0.tif. Saved 803 tiles. Time: 10.1s
+[58/754] Start 379f1c_0.tif (9839x44312)
+[58/754] Finished 379f1c_0.tif. Saved 429 tiles. Time: 7.9s
+[59/754] Start ae0487_0.tif (11016x26787)
+[59/754] Finished ae0487_0.tif. Saved 580 tiles. Time: 6.5s
+[60/754] Start 579988_0.tif (19798x35047)
+[60/754] Finished 579988_0.tif. Saved 704 tiles. Time: 12.2s
+[61/754] Start 9fa03a_0.tif (7390x24463)
+[61/754] Finished 9fa03a_0.tif. Saved 131 tiles. Time: 3.4s
+[62/754] Start 90ffa4_1.tif (16493x32290)
+[62/754] Finished 90ffa4_1.tif. Saved 110 tiles. Time: 7.5s
+[63/754] Start 4e30e9_0.tif (15505x10175)
+[63/754] Finished 4e30e9_0.tif. Saved 363 tiles. Time: 3.6s
+[64/754] Start 029c68_0.tif (33023x34060)
+[64/754] Finished 029c68_0.tif. Saved 1310 tiles. Time: 20.1s
+[65/754] Start ffec5c_1.tif (21963x40561)
+[65/754] Finished ffec5c_1.tif. Saved 416 tiles. Time: 13.7s
+[66/754] Start 4929cd_0.tif (24250x27658)
+[66/754] Finished 4929cd_0.tif. Saved 413 tiles. Time: 12.0s
+[67/754] Start 83198b_0.tif (29600x58969)
+[67/754] Finished 83198b_0.tif. Saved 1414 tiles. Time: 29.2s
+[68/754] Start f57f2e_0.tif (30703x58964)
+[68/754] Finished f57f2e_0.tif. Saved 1007 tiles. Time: 28.5s
+[69/754] Start 91b9d3_0.tif (20047x7254)
+[69/754] Finished 91b9d3_0.tif. Saved 7 tiles. Time: 2.2s
+[70/754] Start c4a601_0.tif (21922x51630)
+[70/754] Finished c4a601_0.tif. Saved 1148 tiles. Time: 20.2s
+[71/754] Start 75ee44_0.tif (14289x32300)
+[71/754] Finished 75ee44_0.tif. Saved 501 tiles. Time: 8.3s
+[72/754] Start 709b79_0.tif (34065x50662)
+[72/754] Finished 709b79_0.tif. Saved 158 tiles. Time: 24.5s
+[73/754] Start 244aeb_1.tif (6540x5398)
+[73/754] Finished 244aeb_1.tif. Saved 0 tiles. Time: 0.7s
+[74/754] Start de9e4c_0.tif (25394x17511)
+[74/754] Finished de9e4c_0.tif. Saved 273 tiles. Time: 7.1s
+[75/754] Start 313d30_0.tif (15290x56271)
+[75/754] Finished 313d30_0.tif. Saved 621 tiles. Time: 14.4s
+[76/754] Start 9a807e_0.tif (22923x74677)
+[76/754] Finished 9a807e_0.tif. Saved 475 tiles. Time: 24.6s
+[77/754] Start 98123e_0.tif (21905x53471)
+[77/754] Finished 98123e_0.tif. Saved 89 tiles. Time: 16.7s
+[78/754] Start 9fc787_0.tif (21878x59002)
+[78/754] Finished 9fc787_0.tif. Saved 10 tiles. Time: 18.2s
+[79/754] Start 2e7d16_0.tif (35140x55263)
+[79/754] Finished 2e7d16_0.tif. Saved 3215 tiles. Time: 40.0s
+[80/754] Start 4a1152_0.tif (28621x32234)
+[80/754] Finished 4a1152_0.tif. Saved 17 tiles. Time: 13.8s
+[81/754] Start dae554_0.tif (13244x21243)
+[81/754] Finished dae554_0.tif. Saved 99 tiles. Time: 5.5s
+[82/754] Start 112b6e_0.tif (27583x21190)
+[82/754] Finished 112b6e_0.tif. Saved 394 tiles. Time: 9.4s
+[83/754] Start 354f74_0.tif (41873x21058)
+[83/754] Finished 354f74_0.tif. Saved 511 tiles. Time: 14.5s
+[84/754] Start c9d53d_0.tif (30706x58042)
+[84/754] Finished c9d53d_0.tif. Saved 1087 tiles. Time: 28.1s
+[85/754] Start abfcb7_0.tif (16368x60876)
+[85/754] Finished abfcb7_0.tif. Saved 2760 tiles. Time: 25.7s
+[86/754] Start 75e090_0.tif (15496x12017)
+[86/754] Finished 75e090_0.tif. Saved 168 tiles. Time: 3.5s
+[87/754] Start 049194_1.tif (23040x50708)
+[87/754] Finished 049194_1.tif. Saved 422 tiles. Time: 17.3s
+[88/754] Start 05a1ec_0.tif (21991x35029)
+[88/754] Finished 05a1ec_0.tif. Saved 1043 tiles. Time: 15.1s
+[89/754] Start a975ab_1.tif (14355x53736)
+[89/754] Finished a975ab_1.tif. Saved 41 tiles. Time: 11.4s
+[90/754] Start 6015f7_0.tif (29649x50677)
+[90/754] Finished 6015f7_0.tif. Saved 1564 tiles. Time: 27.0s
+[91/754] Start ff14e0_0.tif (16452x43358)
+[91/754] Finished ff14e0_0.tif. Saved 549 tiles. Time: 11.9s
+[92/754] Start 8b90fa_0.tif (18589x57177)
+[92/754] Finished 8b90fa_0.tif. Saved 810 tiles. Time: 17.9s
+[93/754] Start 4647d7_0.tif (15382x36910)
+[93/754] Finished 4647d7_0.tif. Saved 290 tiles. Time: 9.0s
+[94/754] Start a96be4_0.tif (25199x57145)
+[94/754] Finished a96be4_0.tif. Saved 1230 tiles. Time: 24.3s
+[95/754] Start e251ff_0.tif (17690x15703)
+[95/754] Finished e251ff_0.tif. Saved 185 tiles. Time: 4.6s
+[96/754] Start 9ee0e2_0.tif (16566x17538)
+[96/754] Finished 9ee0e2_0.tif. Saved 550 tiles. Time: 6.3s
+[97/754] Start 55809c_0.tif (14289x35072)
+[97/754] Finished 55809c_0.tif. Saved 1026 tiles. Time: 11.3s
+[98/754] Start 0d533f_0.tif (53837x26870)
+[98/754] Finished 0d533f_0.tif. Saved 886 tiles. Time: 23.6s
+[99/754] Start fa9050_0.tif (12121x27707)
+[99/754] Finished fa9050_0.tif. Saved 318 tiles. Time: 5.9s
+[100/754] Start 9efc03_0.tif (15404x31377)
+[100/754] Finished 9efc03_0.tif. Saved 530 tiles. Time: 8.8s
+[101/754] Start 4bfb94_0.tif (21895x57162)
+[101/754] Finished 4bfb94_0.tif. Saved 703 tiles. Time: 19.6s
+[102/754] Start e96bd3_0.tif (38420x58005)
+[102/754] Finished e96bd3_0.tif. Saved 1368 tiles. Time: 36.5s
+[103/754] Start 3b2c59_0.tif (21894x58085)
+[103/754] Finished 3b2c59_0.tif. Saved 878 tiles. Time: 20.8s
+[104/754] Start f56138_0.tif (21001x12913)
+[104/754] Finished f56138_0.tif. Saved 316 tiles. Time: 5.4s
+[105/754] Start bff862_0.tif (29643x47899)
+[105/754] Finished bff862_0.tif. Saved 278 tiles. Time: 19.9s
+[106/754] Start f3e9f6_1.tif (15496x12017)
+[106/754] Finished f3e9f6_1.tif. Saved 136 tiles. Time: 4.0s
+[107/754] Start fdce0f_1.tif (12200x9263)
+[107/754] Finished fdce0f_1.tif. Saved 21 tiles. Time: 1.9s
+[108/754] Start 4d15a9_0.tif (9903x27712)
+[108/754] Finished 4d15a9_0.tif. Saved 367 tiles. Time: 5.3s
+[109/754] Start 1fe0c4_0.tif (13211x29544)
+[109/754] Finished 1fe0c4_0.tif. Saved 553 tiles. Time: 7.8s
+[110/754] Start fe9bec_0.tif (36139x72763)
+[110/754] Finished fe9bec_0.tif. Saved 883 tiles. Time: 38.4s
+[111/754] Start 19dd95_0.tif (11975x57208)
+[111/754] Finished 19dd95_0.tif. Saved 1193 tiles. Time: 14.3s
+[112/754] Start 6569ba_0.tif (20966x19361)
+[112/754] Finished 6569ba_0.tif. Saved 292 tiles. Time: 6.7s
+[113/754] Start c3f2f8_0.tif (19789x35041)
+[113/754] Finished c3f2f8_0.tif. Saved 578 tiles. Time: 12.5s
+[114/754] Start c6c758_0.tif (42906x44167)
+[114/754] Finished c6c758_0.tif. Saved 331 tiles. Time: 28.4s
+[115/754] Start 42529f_0.tif (17587x37825)
+[115/754] Finished 42529f_0.tif. Saved 780 tiles. Time: 12.1s
+[116/754] Start 03e6b7_0.tif (11042x30284)
+[116/754] Finished 03e6b7_0.tif. Saved 171 tiles. Time: 5.3s
+[117/754] Start a22718_0.tif (73777x24917)
+[117/754] Finished a22718_0.tif. Saved 1531 tiles. Time: 32.8s
+[118/754] Start bb06a5_0.tif (13591x33996)
+[118/754] Finished bb06a5_0.tif. Saved 586 tiles. Time: 7.9s
+[119/754] Start 90ffa4_0.tif (18660x33182)
+[119/754] Finished 90ffa4_0.tif. Saved 274 tiles. Time: 9.5s
+[120/754] Start e60ca1_0.tif (10989x31395)
+[120/754] Finished e60ca1_0.tif. Saved 323 tiles. Time: 6.1s
+[121/754] Start 5f520a_0.tif (6625x6495)
+[121/754] Finished 5f520a_0.tif. Saved 124 tiles. Time: 1.4s
+[122/754] Start 1d0518_0.tif (22054x23974)
+[122/754] Finished 1d0518_0.tif. Saved 14 tiles. Time: 7.6s
+[123/754] Start f4c9ff_0.tif (17570x40589)
+[123/754] Finished f4c9ff_0.tif. Saved 638 tiles. Time: 12.2s
+[124/754] Start 6baf51_0.tif (48282x101406)
+[124/754] Finished 6baf51_0.tif. Saved 4631 tiles. Time: 86.5s
+[125/754] Start 4f9678_0.tif (21923x50707)
+[125/754] Finished 4f9678_0.tif. Saved 675 tiles. Time: 17.9s
+[126/754] Start 7f343b_0.tif (29909x8735)
+[126/754] Finished 7f343b_0.tif. Saved 109 tiles. Time: 7.2s
+[127/754] Start 56d177_3.tif (10533x55001)
+[127/754] Finished 56d177_3.tif. Saved 16 tiles. Time: 8.6s
+[128/754] Start 0aaeb3_0.tif (26460x24877)
+[128/754] Finished 0aaeb3_0.tif. Saved 233 tiles. Time: 9.7s
+[129/754] Start 3ee426_0.tif (24050x66369)
+[129/754] Finished 3ee426_0.tif. Saved 1235 tiles. Time: 25.7s
+[130/754] Start e3f976_0.tif (18698x35052)
+[130/754] Finished e3f976_0.tif. Saved 826 tiles. Time: 12.2s
+[131/754] Start 91b9d3_2.tif (28704x14715)
+[131/754] Finished 91b9d3_2.tif. Saved 116 tiles. Time: 6.0s
+[132/754] Start c97365_0.tif (21991x35954)
+[132/754] Finished c97365_0.tif. Saved 689 tiles. Time: 13.6s
+[133/754] Start 2eb2d7_0.tif (17583x36899)
+[133/754] Finished 2eb2d7_0.tif. Saved 797 tiles. Time: 12.2s
+[134/754] Start c07ca9_0.tif (75771x28538)
+[134/754] Finished c07ca9_0.tif. Saved 805 tiles. Time: 32.9s
+[135/754] Start aa2f56_0.tif (23078x40562)
+[135/754] Finished aa2f56_0.tif. Saved 484 tiles. Time: 14.4s
+[136/754] Start c1cf0d_0.tif (15474x17552)
+[136/754] Finished c1cf0d_0.tif. Saved 253 tiles. Time: 5.1s
+[137/754] Start a2c497_0.tif (12147x24042)
+[137/754] Finished a2c497_0.tif. Saved 28 tiles. Time: 4.4s
+[138/754] Start 1ffc5d_0.tif (22938x70065)
+[138/754] Finished 1ffc5d_0.tif. Saved 663 tiles. Time: 24.4s
+[139/754] Start d74701_0.tif (25352x26728)
+[139/754] Finished d74701_0.tif. Saved 279 tiles. Time: 10.9s
+[140/754] Start bd0cea_0.tif (24294x71029)
+[140/754] Finished bd0cea_0.tif. Saved 494 tiles. Time: 24.7s
+[141/754] Start 4667f6_0.tif (28591x40539)
+[141/754] Finished 4667f6_0.tif. Saved 477 tiles. Time: 17.2s
+[142/754] Start 615d87_0.tif (23151x24889)
+[142/754] Finished 615d87_0.tif. Saved 161 tiles. Time: 8.5s
+[143/754] Start b5aece_0.tif (23098x38725)
+[143/754] Finished b5aece_0.tif. Saved 1074 tiles. Time: 16.4s
+[144/754] Start 804f15_0.tif (17616x29523)
+[144/754] Finished 804f15_0.tif. Saved 811 tiles. Time: 10.4s
+[145/754] Start 6747be_1.tif (14309x30461)
+[145/754] Finished 6747be_1.tif. Saved 128 tiles. Time: 6.6s
+[146/754] Start 0b7871_1.tif (25324x33182)
+[146/754] Finished 0b7871_1.tif. Saved 750 tiles. Time: 15.4s
+[147/754] Start 3d10be_1.tif (9961x16650)
+[147/754] Finished 3d10be_1.tif. Saved 25 tiles. Time: 3.3s
+[148/754] Start 09644e_0.tif (15341x44284)
+[148/754] Finished 09644e_0.tif. Saved 1115 tiles. Time: 14.1s
+[149/754] Start 162cad_0.tif (23021x53471)
+[149/754] Finished 162cad_0.tif. Saved 334 tiles. Time: 17.8s
+[150/754] Start 7f3781_0.tif (30712x58969)
+[150/754] Finished 7f3781_0.tif. Saved 1441 tiles. Time: 30.7s
+[151/754] Start a95219_0.tif (30826x34076)
+[151/754] Finished a95219_0.tif. Saved 915 tiles. Time: 17.9s
+[152/754] Start 5c30ec_0.tif (30707x58042)
+[152/754] Finished 5c30ec_0.tif. Saved 900 tiles. Time: 27.4s
+[153/754] Start 8e0684_0.tif (13280x13868)
+[153/754] Finished 8e0684_0.tif. Saved 165 tiles. Time: 3.3s
+[154/754] Start 437435_1.tif (17626x27680)
+[154/754] Finished 437435_1.tif. Saved 334 tiles. Time: 8.2s
+[155/754] Start d93fd8_0.tif (31903x12757)
+[155/754] Finished d93fd8_0.tif. Saved 542 tiles. Time: 8.0s
+[156/754] Start 5f3f01_0.tif (18533x65470)
+[156/754] Finished 5f3f01_0.tif. Saved 571 tiles. Time: 18.3s
+[157/754] Start 2a25b9_0.tif (14333x24004)
+[157/754] Finished 2a25b9_0.tif. Saved 82 tiles. Time: 5.8s
+[158/754] Start 2bd8fe_0.tif (38322x80136)
+[158/754] Finished 2bd8fe_0.tif. Saved 3821 tiles. Time: 56.9s
+[159/754] Start e7d583_0.tif (19752x45188)
+[159/754] Finished e7d583_0.tif. Saved 251 tiles. Time: 13.0s
+[160/754] Start 91b9d3_4.tif (27573x23032)
+[160/754] Finished 91b9d3_4.tif. Saved 0 tiles. Time: 9.8s
+[161/754] Start 006388_0.tif (34007x60797)
+[161/754] Finished 006388_0.tif. Saved 3289 tiles. Time: 42.3s
+[162/754] Start d91d0f_0.tif (19772x39654)
+[162/754] Finished d91d0f_0.tif. Saved 982 tiles. Time: 14.8s
+[163/754] Start b46f3b_0.tif (55831x17803)
+[163/754] Finished b46f3b_0.tif. Saved 601 tiles. Time: 19.4s
+[164/754] Start d2c18a_0.tif (24200x35946)
+[164/754] Finished d2c18a_0.tif. Saved 432 tiles. Time: 13.7s
+[165/754] Start 5aec9b_0.tif (27915x14432)
+[165/754] Finished 5aec9b_0.tif. Saved 251 tiles. Time: 7.3s
+[166/754] Start 2e725a_0.tif (13226x25855)
+[166/754] Finished 2e725a_0.tif. Saved 202 tiles. Time: 5.5s
+[167/754] Start c65db4_0.tif (15367x39675)
+[167/754] Finished c65db4_0.tif. Saved 976 tiles. Time: 12.4s
+[168/754] Start ec3098_0.tif (17583x62832)
+[168/754] Finished ec3098_0.tif. Saved 307 tiles. Time: 16.0s
+[169/754] Start 4550fb_0.tif (28669x22091)
+[169/754] Finished 4550fb_0.tif. Saved 423 tiles. Time: 10.4s
+[170/754] Start 055f6a_0.tif (16439x43353)
+[170/754] Finished 055f6a_0.tif. Saved 691 tiles. Time: 12.6s
+[171/754] Start 52d106_0.tif (22013x32269)
+[171/754] Finished 52d106_0.tif. Saved 403 tiles. Time: 11.4s
+[172/754] Start da732b_0.tif (20806x54401)
+[172/754] Finished da732b_0.tif. Saved 1067 tiles. Time: 19.1s
+[173/754] Start 8768db_0.tif (15629x41757)
+[173/754] Finished 8768db_0.tif. Saved 198 tiles. Time: 9.4s
+[174/754] Start 5f520a_1.tif (6710x6326)
+[174/754] Finished 5f520a_1.tif. Saved 1 tiles. Time: 1.5s
+[175/754] Start 56d177_2.tif (8834x12653)
+[175/754] Finished 56d177_2.tif. Saved 0 tiles. Time: 1.6s
+[176/754] Start d5c637_0.tif (24094x59920)
+[176/754] Finished d5c637_0.tif. Saved 1737 tiles. Time: 26.8s
+[177/754] Start 9dd7d8_0.tif (29802x15632)
+[177/754] Finished 9dd7d8_0.tif. Saved 216 tiles. Time: 7.3s
+[178/754] Start 250944_0.tif (6116x8014)
+[178/754] Finished 250944_0.tif. Saved 145 tiles. Time: 1.9s
+[179/754] Start 33da32_0.tif (10943x40615)
+[179/754] Finished 33da32_0.tif. Saved 110 tiles. Time: 6.6s
+[180/754] Start 949107_0.tif (13176x35996)
+[180/754] Finished 949107_0.tif. Saved 691 tiles. Time: 9.5s
+[181/754] Start df543d_0.tif (15335x46129)
+[181/754] Finished df543d_0.tif. Saved 920 tiles. Time: 13.5s
+[182/754] Start 23d2c1_1.tif (24087x58070)
+[182/754] Finished 23d2c1_1.tif. Saved 735 tiles. Time: 21.5s
+[183/754] Start c8912e_0.tif (25091x83888)
+[183/754] Finished c8912e_0.tif. Saved 3099 tiles. Time: 43.5s
+[184/754] Start e732f6_1.tif (15332x46128)
+[184/754] Finished e732f6_1.tif. Saved 672 tiles. Time: 12.5s
+[185/754] Start 82399d_2.tif (7050x22945)
+[185/754] Finished 82399d_2.tif. Saved 64 tiles. Time: 3.1s
+[186/754] Start 9d71ef_0.tif (19711x51638)
+[186/754] Finished 9d71ef_0.tif. Saved 713 tiles. Time: 16.1s
+[187/754] Start 89933b_0.tif (14303x29534)
+[187/754] Finished 89933b_0.tif. Saved 335 tiles. Time: 7.0s
+[188/754] Start a45bac_0.tif (37885x18875)
+[188/754] Finished a45bac_0.tif. Saved 789 tiles. Time: 13.7s
+[189/754] Start 8be762_0.tif (30709x58043)
+[189/754] Finished 8be762_0.tif. Saved 1148 tiles. Time: 28.7s
+[190/754] Start 283f35_0.tif (15399x35070)
+[190/754] Finished 283f35_0.tif. Saved 103 tiles. Time: 7.9s
+[191/754] Start 3d10be_0.tif (11088x12038)
+[191/754] Finished 3d10be_0.tif. Saved 0 tiles. Time: 3.2s
+[192/754] Start 5d3738_0.tif (16466x37821)
+[192/754] Finished 5d3738_0.tif. Saved 188 tiles. Time: 9.6s
+[193/754] Start 1a2e9e_0.tif (25293x36860)
+[193/754] Finished 1a2e9e_0.tif. Saved 761 tiles. Time: 15.6s
+[194/754] Start 862501_0.tif (20798x56245)
+[194/754] Finished 862501_0.tif. Saved 769 tiles. Time: 18.9s
+[195/754] Start 91b9d3_3.tif (27426x50676)
+[195/754] Finished 91b9d3_3.tif. Saved 1460 tiles. Time: 24.5s
+[196/754] Start f7f1bc_0.tif (9896x31403)
+[196/754] Finished f7f1bc_0.tif. Saved 424 tiles. Time: 6.1s
+[197/754] Start 48af1a_0.tif (19646x66391)
+[197/754] Finished 48af1a_0.tif. Saved 715 tiles. Time: 21.7s
+[198/754] Start 0468a8_0.tif (23047x47940)
+[198/754] Finished 0468a8_0.tif. Saved 1043 tiles. Time: 19.1s
+[199/754] Start 31588e_0.tif (15629x51121)
+[199/754] Finished 31588e_0.tif. Saved 3 tiles. Time: 11.2s
+[200/754] Start 7dd82f_1.tif (6031x16618)
+[200/754] Finished 7dd82f_1.tif. Saved 65 tiles. Time: 2.0s
+[201/754] Start a59c0d_0.tif (24045x70061)
+[201/754] Finished a59c0d_0.tif. Saved 502 tiles. Time: 25.8s
+[202/754] Start 2c64b2_0.tif (24152x47012)
+[202/754] Finished 2c64b2_0.tif. Saved 814 tiles. Time: 18.4s
+[203/754] Start 04439c_0.tif (16490x35061)
+[203/754] Finished 04439c_0.tif. Saved 572 tiles. Time: 10.2s
+[204/754] Start 45c6ce_0.tif (14269x37835)
+[204/754] Finished 45c6ce_0.tif. Saved 415 tiles. Time: 9.5s
+[205/754] Start 23d2c1_2.tif (15360x37825)
+[205/754] Finished 23d2c1_2.tif. Saved 1053 tiles. Time: 12.2s
+[206/754] Start 7633ea_0.tif (9853x46144)
+[206/754] Finished 7633ea_0.tif. Saved 4 tiles. Time: 6.2s
+[207/754] Start abc4a3_2.tif (25276x40548)
+[207/754] Finished abc4a3_2.tif. Saved 206 tiles. Time: 14.2s
+[208/754] Start 72ead5_0.tif (19778x38733)
+[208/754] Finished 72ead5_0.tif. Saved 1235 tiles. Time: 15.7s
+[209/754] Start a9c427_0.tif (14368x16628)
+[209/754] Finished a9c427_0.tif. Saved 366 tiles. Time: 4.7s
+[210/754] Start 43eacb_0.tif (14292x32302)
+[210/754] Finished 43eacb_0.tif. Saved 61 tiles. Time: 7.1s
+[211/754] Start 79e30d_0.tif (17571x37817)
+[211/754] Finished 79e30d_0.tif. Saved 593 tiles. Time: 11.6s
+[212/754] Start 510d2e_0.tif (22026x31353)
+[212/754] Finished 510d2e_0.tif. Saved 0 tiles. Time: 9.1s
+[213/754] Start 0c60b8_0.tif (21982x38723)
+[213/754] Finished 0c60b8_0.tif. Saved 473 tiles. Time: 13.1s
+[214/754] Start 988131_0.tif (22004x34113)
+[214/754] Finished 988131_0.tif. Saved 355 tiles. Time: 11.3s
+[215/754] Start 205025_0.tif (47855x29425)
+[215/754] Finished 205025_0.tif. Saved 1182 tiles. Time: 25.9s
+[216/754] Start e8dceb_0.tif (71783x9652)
+[216/754] Finished e8dceb_0.tif. Saved 93 tiles. Time: 10.4s
+[217/754] Start 777311_1.tif (11004x31400)
+[217/754] Finished 777311_1.tif. Saved 360 tiles. Time: 6.2s
+[218/754] Start 1f018f_0.tif (8579x33068)
+[218/754] Finished 1f018f_0.tif. Saved 218 tiles. Time: 4.7s
+[219/754] Start 280c26_1.tif (12741x33659)
+[219/754] Finished 280c26_1.tif. Saved 0 tiles. Time: 5.8s
+[220/754] Start 4f7d1c_0.tif (26303x57141)
+[220/754] Finished 4f7d1c_0.tif. Saved 1117 tiles. Time: 24.5s
+[221/754] Start 2f73a2_0.tif (27512x35011)
+[221/754] Finished 2f73a2_0.tif. Saved 959 tiles. Time: 17.2s
+[222/754] Start 84f77e_0.tif (28796x50868)
+[222/754] Finished 84f77e_0.tif. Saved 34 tiles. Time: 19.2s
+[223/754] Start c32d76_0.tif (41712x60754)
+[223/754] Finished c32d76_0.tif. Saved 1266 tiles. Time: 39.5s
+[224/754] Start 70c523_2.tif (25280x40551)
+[224/754] Finished 70c523_2.tif. Saved 185 tiles. Time: 14.5s
+[225/754] Start 5588f9_0.tif (33041x30373)
+[225/754] Finished 5588f9_0.tif. Saved 787 tiles. Time: 16.6s
+[226/754] Start 88623d_0.tif (25231x51616)
+[226/754] Finished 88623d_0.tif. Saved 870 tiles. Time: 21.2s
+[227/754] Start 7bc484_0.tif (21925x48860)
+[227/754] Finished 7bc484_0.tif. Saved 1167 tiles. Time: 19.3s
+[228/754] Start 09644e_4.tif (9913x27715)
+[228/754] Finished 09644e_4.tif. Saved 412 tiles. Time: 5.5s
+[229/754] Start 53e0d7_0.tif (15393x29523)
+[229/754] Finished 53e0d7_0.tif. Saved 428 tiles. Time: 7.9s
+[230/754] Start df543d_1.tif (11015x24014)
+[230/754] Finished df543d_1.tif. Saved 87 tiles. Time: 4.5s
+[231/754] Start 3ad0bb_0.tif (10278x38720)
+[231/754] Finished 3ad0bb_0.tif. Saved 22 tiles. Time: 5.4s
+[232/754] Start 931cea_0.tif (13283x12945)
+[232/754] Finished 931cea_0.tif. Saved 395 tiles. Time: 4.1s
+[233/754] Start 673181_0.tif (13207x24921)
+[233/754] Finished 673181_0.tif. Saved 121 tiles. Time: 4.9s
+[234/754] Start 6fce60_0.tif (77765x39386)
+[234/754] Finished 6fce60_0.tif. Saved 3422 tiles. Time: 61.7s
+[235/754] Start d03362_0.tif (10848x63668)
+[235/754] Finished d03362_0.tif. Saved 974 tiles. Time: 13.2s
+[236/754] Start fdce0f_0.tif (11097x9267)
+[236/754] Finished fdce0f_0.tif. Saved 96 tiles. Time: 2.9s
+[237/754] Start 280c26_0.tif (14695x34418)
+[237/754] Finished 280c26_0.tif. Saved 0 tiles. Time: 7.1s
+[238/754] Start 0ee750_0.tif (19797x37818)
+[238/754] Finished 0ee750_0.tif. Saved 686 tiles. Time: 13.1s
+[239/754] Start 86e319_1.tif (29581x64504)
+[239/754] Finished 86e319_1.tif. Saved 1170 tiles. Time: 30.5s
+[240/754] Start bf1599_0.tif (11024x24943)
+[240/754] Finished bf1599_0.tif. Saved 269 tiles. Time: 4.9s
+[241/754] Start 65d1b4_0.tif (13200x31387)
+[241/754] Finished 65d1b4_0.tif. Saved 175 tiles. Time: 6.5s
+[242/754] Start b7f78e_0.tif (23079x38713)
+[242/754] Finished b7f78e_0.tif. Saved 298 tiles. Time: 13.2s
+[243/754] Start 214cfa_0.tif (18702x33206)
+[243/754] Finished 214cfa_0.tif. Saved 291 tiles. Time: 9.9s
+[244/754] Start 5adc4c_0.tif (22425x38467)
+[244/754] Finished 5adc4c_0.tif. Saved 408 tiles. Time: 12.6s
+[245/754] Start dbecb3_0.tif (67795x24658)
+[245/754] Finished dbecb3_0.tif. Saved 1741 tiles. Time: 31.4s
+[246/754] Start 15aab4_0.tif (13305x9263)
+[246/754] Finished 15aab4_0.tif. Saved 189 tiles. Time: 2.5s
+[247/754] Start d98dc9_0.tif (37885x12449)
+[247/754] Finished d98dc9_0.tif. Saved 697 tiles. Time: 10.1s
+[248/754] Start 037300_0.tif (27346x70968)
+[248/754] Finished 037300_0.tif. Saved 975 tiles. Time: 30.8s
+[249/754] Start 83cedb_0.tif (75771x29177)
+[249/754] Finished 83cedb_0.tif. Saved 2589 tiles. Time: 46.5s
+[250/754] Start cde001_0.tif (28701x16569)
+[250/754] Finished cde001_0.tif. Saved 330 tiles. Time: 7.8s
+[251/754] Start 82399d_0.tif (10957x48927)
+[251/754] Finished 82399d_0.tif. Saved 3 tiles. Time: 7.5s
+[252/754] Start ca7b57_0.tif (9513x11472)
+[252/754] Finished ca7b57_0.tif. Saved 23 tiles. Time: 1.9s
+[253/754] Start 63f341_0.tif (15369x37829)
+[253/754] Finished 63f341_0.tif. Saved 972 tiles. Time: 12.2s
+[254/754] Start ef0c95_0.tif (7814x7170)
+[254/754] Finished ef0c95_0.tif. Saved 0 tiles. Time: 1.4s
+[255/754] Start ef1b15_0.tif (15410x30456)
+[255/754] Finished ef1b15_0.tif. Saved 806 tiles. Time: 9.8s
+[256/754] Start e0b829_0.tif (37885x19678)
+[256/754] Finished e0b829_0.tif. Saved 854 tiles. Time: 14.6s
+[257/754] Start fa0080_0.tif (12097x28621)
+[257/754] Finished fa0080_0.tif. Saved 141 tiles. Time: 5.4s
+[258/754] Start 4ded24_0.tif (7220x32815)
+[258/754] Finished 4ded24_0.tif. Saved 0 tiles. Time: 3.2s
+[259/754] Start 355354_0.tif (25351x24875)
+[259/754] Finished 355354_0.tif. Saved 731 tiles. Time: 12.4s
+[260/754] Start 8fa951_0.tif (14384x14791)
+[260/754] Finished 8fa951_0.tif. Saved 375 tiles. Time: 4.6s
+[261/754] Start 7fa91f_0.tif (16517x27680)
+[261/754] Finished 7fa91f_0.tif. Saved 199 tiles. Time: 7.2s
+[262/754] Start 329006_0.tif (7645x32562)
+[262/754] Finished 329006_0.tif. Saved 183 tiles. Time: 5.0s
+[263/754] Start c68551_0.tif (18660x38730)
+[263/754] Finished c68551_0.tif. Saved 204 tiles. Time: 11.0s
+[264/754] Start 0bddf9_0.tif (85741x25350)
+[264/754] Finished 0bddf9_0.tif. Saved 1417 tiles. Time: 37.1s
+[265/754] Start 557c4b_0.tif (13134x44294)
+[265/754] Finished 557c4b_0.tif. Saved 553 tiles. Time: 10.2s
+[266/754] Start 8ebb0c_0.tif (19767x42423)
+[266/754] Finished 8ebb0c_0.tif. Saved 1210 tiles. Time: 16.6s
+[267/754] Start 1bbcba_0.tif (12073x35078)
+[267/754] Finished 1bbcba_0.tif. Saved 855 tiles. Time: 9.4s
+[268/754] Start 300145_0.tif (26434x28556)
+[268/754] Finished 300145_0.tif. Saved 2078 tiles. Time: 19.4s
+[269/754] Start b894f4_0.tif (91723x45045)
+[269/754] Finished b894f4_0.tif. Saved 5642 tiles. Time: 82.9s
+[270/754] Start bbc5b1_0.tif (18610x54414)
+[270/754] Finished bbc5b1_0.tif. Saved 1499 tiles. Time: 20.2s
+[271/754] Start c63918_0.tif (9817x30454)
+[271/754] Finished c63918_0.tif. Saved 291 tiles. Time: 5.3s
+[272/754] Start 194e3f_0.tif (12103x30471)
+[272/754] Finished 194e3f_0.tif. Saved 378 tiles. Time: 6.6s
+[273/754] Start 9452da_0.tif (29503x84793)
+[273/754] Finished 9452da_0.tif. Saved 1730 tiles. Time: 40.9s
+[274/754] Start 140d1a_0.tif (8630x64599)
+[274/754] Finished 140d1a_0.tif. Saved 642 tiles. Time: 10.6s
+[275/754] Start 0fcfe9_0.tif (39624x36796)
+[275/754] Finished 0fcfe9_0.tif. Saved 1802 tiles. Time: 26.9s
+[276/754] Start dd6316_0.tif (16503x32295)
+[276/754] Finished dd6316_0.tif. Saved 422 tiles. Time: 8.9s
+[277/754] Start 7428fc_0.tif (16542x24922)
+[277/754] Finished 7428fc_0.tif. Saved 49 tiles. Time: 5.7s
+[278/754] Start b6cfea_0.tif (11035x24024)
+[278/754] Finished b6cfea_0.tif. Saved 153 tiles. Time: 5.2s
+[279/754] Start e65811_0.tif (9891x31402)
+[279/754] Finished e65811_0.tif. Saved 357 tiles. Time: 6.0s
+[280/754] Start 00c058_0.tif (15255x61801)
+[280/754] Finished 00c058_0.tif. Saved 813 tiles. Time: 16.3s
+[281/754] Start cb4f8e_1.tif (57825x15799)
+[281/754] Finished cb4f8e_1.tif. Saved 540 tiles. Time: 16.3s
+[282/754] Start d4ac9a_0.tif (15377x35061)
+[282/754] Finished d4ac9a_0.tif. Saved 534 tiles. Time: 9.5s
+[283/754] Start e9c181_1.tif (18607x55336)
+[283/754] Finished e9c181_1.tif. Saved 61 tiles. Time: 15.0s
+[284/754] Start eebf8d_2.tif (14249x41522)
+[284/754] Finished eebf8d_2.tif. Saved 687 tiles. Time: 10.9s
+[285/754] Start b4a34d_0.tif (16477x36902)
+[285/754] Finished b4a34d_0.tif. Saved 883 tiles. Time: 11.9s
+[286/754] Start 7a9bc8_0.tif (19721x49794)
+[286/754] Finished 7a9bc8_0.tif. Saved 248 tiles. Time: 14.3s
+[287/754] Start 915264_0.tif (19689x59018)
+[287/754] Finished 915264_0.tif. Saved 613 tiles. Time: 18.0s
+[288/754] Start b07b42_0.tif (83747x47916)
+[288/754] Finished b07b42_0.tif. Saved 3532 tiles. Time: 75.1s
+[289/754] Start 6670b9_0.tif (63807x18945)
+[289/754] Finished 6670b9_0.tif. Saved 448 tiles. Time: 18.9s
+[290/754] Start eebf8d_0.tif (18608x48872)
+[290/754] Finished eebf8d_0.tif. Saved 965 tiles. Time: 16.4s
+[291/754] Start 827928_0.tif (32934x53423)
+[291/754] Finished 827928_0.tif. Saved 844 tiles. Time: 27.5s
+[292/754] Start b1f248_0.tif (12183x14803)
+[292/754] Finished b1f248_0.tif. Saved 61 tiles. Time: 3.2s
+[293/754] Start e7bec8_0.tif (12085x32311)
+[293/754] Finished e7bec8_0.tif. Saved 29 tiles. Time: 5.6s
+[294/754] Start 062387_0.tif (21826x70990)
+[294/754] Finished 062387_0.tif. Saved 1698 tiles. Time: 29.1s
+[295/754] Start 616c62_1.tif (25251x47930)
+[295/754] Finished 616c62_1.tif. Saved 1337 tiles. Time: 21.8s
+[296/754] Start c65db4_1.tif (15384x37835)
+[296/754] Finished c65db4_1.tif. Saved 639 tiles. Time: 10.6s
+[297/754] Start 27afc7_0.tif (12196x11112)
+[297/754] Finished 27afc7_0.tif. Saved 136 tiles. Time: 2.5s
+[298/754] Start 68eb0e_0.tif (8239x25560)
+[298/754] Finished 68eb0e_0.tif. Saved 2 tiles. Time: 3.3s
+[299/754] Start 3d80c7_0.tif (18702x35979)
+[299/754] Finished 3d80c7_0.tif. Saved 330 tiles. Time: 10.4s
+[300/754] Start 3c2c23_0.tif (46014x86558)
+[300/754] Finished 3c2c23_0.tif. Saved 4716 tiles. Time: 73.6s
+[301/754] Start 60a950_0.tif (30673x65418)
+[301/754] Finished 60a950_0.tif. Saved 2183 tiles. Time: 35.2s
+[302/754] Start d24672_0.tif (37294x65392)
+[302/754] Finished d24672_0.tif. Saved 1328 tiles. Time: 37.6s
+[303/754] Start 5d819a_1.tif (15422x29538)
+[303/754] Finished 5d819a_1.tif. Saved 183 tiles. Time: 6.7s
+[304/754] Start f2aba9_0.tif (23111x33185)
+[304/754] Finished f2aba9_0.tif. Saved 155 tiles. Time: 10.9s
+[305/754] Start ac2147_0.tif (8832x16640)
+[305/754] Finished ac2147_0.tif. Saved 165 tiles. Time: 3.3s
+[306/754] Start 79ae8d_1.tif (29787x21181)
+[306/754] Finished 79ae8d_1.tif. Saved 604 tiles. Time: 11.6s
+[307/754] Start 2244d2_0.tif (37330x58942)
+[307/754] Finished 2244d2_0.tif. Saved 7008 tiles. Time: 60.3s
+[308/754] Start fad610_0.tif (16581x14773)
+[308/754] Finished fad610_0.tif. Saved 27 tiles. Time: 3.4s
+[309/754] Start 79753f_0.tif (22077x19366)
+[309/754] Finished 79753f_0.tif. Saved 2 tiles. Time: 6.2s
+[310/754] Start 0415c3_0.tif (30560x118076)
+[310/754] Finished 0415c3_0.tif. Saved 3780 tiles. Time: 62.0s
+[311/754] Start 08d3d8_0.tif (12171x15719)
+[311/754] Finished 08d3d8_0.tif. Saved 17 tiles. Time: 3.1s
+[312/754] Start 14d2fa_0.tif (19766x37802)
+[312/754] Finished 14d2fa_0.tif. Saved 927 tiles. Time: 14.0s
+[313/754] Start c01d28_1.tif (38549x30343)
+[313/754] Finished c01d28_1.tif. Saved 304 tiles. Time: 16.8s
+[314/754] Start e10fdb_0.tif (73777x37366)
+[314/754] Finished e10fdb_0.tif. Saved 2737 tiles. Time: 53.0s
+[315/754] Start 4188be_0.tif (22982x58998)
+[315/754] Finished 4188be_0.tif. Saved 1170 tiles. Time: 23.1s
+[316/754] Start c1b699_0.tif (14215x48898)
+[316/754] Finished c1b699_0.tif. Saved 617 tiles. Time: 11.8s
+[317/754] Start 588e11_0.tif (15035x28934)
+[317/754] Finished 588e11_0.tif. Saved 242 tiles. Time: 7.2s
+[318/754] Start dca3b1_0.tif (63807x39348)
+[318/754] Finished dca3b1_0.tif. Saved 3782 tiles. Time: 53.2s
+[319/754] Start e316dd_0.tif (25375x22121)
+[319/754] Finished e316dd_0.tif. Saved 129 tiles. Time: 8.6s
+[320/754] Start 4b8777_0.tif (21952x44252)
+[320/754] Finished 4b8777_0.tif. Saved 926 tiles. Time: 16.4s
+[321/754] Start af4dd6_0.tif (10788x8773)
+[321/754] Finished af4dd6_0.tif. Saved 178 tiles. Time: 2.3s
+[322/754] Start 23b492_0.tif (12062x62931)
+[322/754] Finished 23b492_0.tif. Saved 7 tiles. Time: 10.6s
+[323/754] Start 497c27_0.tif (8783x33252)
+[323/754] Finished 497c27_0.tif. Saved 394 tiles. Time: 5.8s
+[324/754] Start c78d6b_0.tif (10788x29947)
+[324/754] Finished c78d6b_0.tif. Saved 114 tiles. Time: 5.2s
+[325/754] Start ea2aad_0.tif (35036x74617)
+[325/754] Finished ea2aad_0.tif. Saved 637 tiles. Time: 37.2s
+[326/754] Start 70f515_0.tif (36339x31274)
+[326/754] Finished 70f515_0.tif. Saved 3442 tiles. Time: 31.0s
+[327/754] Start 31adaa_1.tif (18772x17529)
+[327/754] Finished 31adaa_1.tif. Saved 416 tiles. Time: 6.6s
+[328/754] Start b1e363_0.tif (61813x47856)
+[328/754] Finished b1e363_0.tif. Saved 2119 tiles. Time: 51.7s
+[329/754] Start 64d167_0.tif (14352x21242)
+[329/754] Finished 64d167_0.tif. Saved 633 tiles. Time: 7.2s
+[330/754] Start ca2f66_0.tif (12062x50446)
+[330/754] Finished ca2f66_0.tif. Saved 215 tiles. Time: 9.0s
+[331/754] Start d380dc_0.tif (59819x12428)
+[331/754] Finished d380dc_0.tif. Saved 178 tiles. Time: 14.3s
+[332/754] Start 8fe2eb_0.tif (24178x41480)
+[332/754] Finished 8fe2eb_0.tif. Saved 1038 tiles. Time: 17.9s
+[333/754] Start e6764f_0.tif (25194x58067)
+[333/754] Finished e6764f_0.tif. Saved 1562 tiles. Time: 27.3s
+[334/754] Start 547474_0.tif (51843x22210)
+[334/754] Finished 547474_0.tif. Saved 989 tiles. Time: 21.1s
+[335/754] Start d4c955_0.tif (7814x49687)
+[335/754] Finished d4c955_0.tif. Saved 15 tiles. Time: 5.3s
+[336/754] Start 5987c0_1.tif (17586x37824)
+[336/754] Finished 5987c0_1.tif. Saved 325 tiles. Time: 10.1s
+[337/754] Start 0d4164_0.tif (39615x40492)
+[337/754] Finished 0d4164_0.tif. Saved 1863 tiles. Time: 29.4s
+[338/754] Start 931cea_1.tif (11079x12955)
+[338/754] Finished 931cea_1.tif. Saved 27 tiles. Time: 2.4s
+[339/754] Start 1d5335_0.tif (14311x31386)
+[339/754] Finished 1d5335_0.tif. Saved 22 tiles. Time: 7.1s
+[340/754] Start fb5f7e_1.tif (9428x7254)
+[340/754] Finished fb5f7e_1.tif. Saved 0 tiles. Time: 1.5s
+[341/754] Start f9569b_0.tif (46177x77440)
+[341/754] Finished f9569b_0.tif. Saved 5084 tiles. Time: 69.6s
+[342/754] Start 31adaa_0.tif (19892x14764)
+[342/754] Finished 31adaa_0.tif. Saved 92 tiles. Time: 4.9s
+[343/754] Start d4dc4f_0.tif (67795x22733)
+[343/754] Finished d4dc4f_0.tif. Saved 1692 tiles. Time: 32.4s
+[344/754] Start 54ddc7_0.tif (16470x37823)
+[344/754] Finished 54ddc7_0.tif. Saved 926 tiles. Time: 12.3s
+[345/754] Start b948e8_0.tif (23170x19349)
+[345/754] Finished b948e8_0.tif. Saved 47 tiles. Time: 6.6s
+[346/754] Start a26055_0.tif (18093x56604)
+[346/754] Finished a26055_0.tif. Saved 518 tiles. Time: 15.8s
+[347/754] Start 01adc5_0.tif (55831x26553)
+[347/754] Finished 01adc5_0.tif. Saved 709 tiles. Time: 24.8s
+[348/754] Start 15de51_0.tif (29764x24860)
+[348/754] Finished 15de51_0.tif. Saved 479 tiles. Time: 12.0s
+[349/754] Start c12836_0.tif (12144x20325)
+[349/754] Finished c12836_0.tif. Saved 115 tiles. Time: 5.0s
+[350/754] Start a4c877_0.tif (24031x70056)
+[350/754] Finished a4c877_0.tif. Saved 1855 tiles. Time: 30.9s
+[351/754] Start f40c69_1.tif (10981x35086)
+[351/754] Finished f40c69_1.tif. Saved 1 tiles. Time: 5.5s
+[352/754] Start 5cae18_0.tif (11094x10191)
+[352/754] Finished 5cae18_0.tif. Saved 0 tiles. Time: 2.0s
+[353/754] Start df2c0d_0.tif (7720x24036)
+[353/754] Finished df2c0d_0.tif. Saved 201 tiles. Time: 3.4s
+[354/754] Start ed5006_0.tif (15396x33221)
+[354/754] Finished ed5006_0.tif. Saved 240 tiles. Time: 7.8s
+[355/754] Start c5e687_0.tif (38397x59840)
+[355/754] Finished c5e687_0.tif. Saved 863 tiles. Time: 33.9s
+[356/754] Start d346ca_0.tif (39543x55239)
+[356/754] Finished d346ca_0.tif. Saved 1681 tiles. Time: 35.9s
+[357/754] Start 113bb3_0.tif (12062x67739)
+[357/754] Finished 113bb3_0.tif. Saved 59 tiles. Time: 12.3s
+[358/754] Start fe0cca_0.tif (17622x26752)
+[358/754] Finished fe0cca_0.tif. Saved 347 tiles. Time: 7.6s
+[359/754] Start 6ce894_0.tif (20773x61777)
+[359/754] Finished 6ce894_0.tif. Saved 177 tiles. Time: 18.0s
+[360/754] Start d4791c_0.tif (5521x7339)
+[360/754] Finished d4791c_0.tif. Saved 179 tiles. Time: 1.8s
+[361/754] Start 508589_0.tif (23104x36880)
+[361/754] Finished 508589_0.tif. Saved 474 tiles. Time: 12.9s
+[362/754] Start ffec5c_0.tif (27394x60827)
+[362/754] Finished ffec5c_0.tif. Saved 700 tiles. Time: 26.0s
+[363/754] Start 2db520_0.tif (41578x86564)
+[363/754] Finished 2db520_0.tif. Saved 2843 tiles. Time: 59.3s
+[364/754] Start 2c8b18_0.tif (9428x32815)
+[364/754] Finished 2c8b18_0.tif. Saved 180 tiles. Time: 5.9s
+[365/754] Start 49ea39_0.tif (37294x62618)
+[365/754] Finished 49ea39_0.tif. Saved 553 tiles. Time: 32.3s
+[366/754] Start 53845a_0.tif (39417x83823)
+[366/754] Finished 53845a_0.tif. Saved 4393 tiles. Time: 62.5s
+[367/754] Start fd7c5b_0.tif (21890x59007)
+[367/754] Finished fd7c5b_0.tif. Saved 15 tiles. Time: 17.5s
+[368/754] Start d862da_0.tif (21988x35952)
+[368/754] Finished d862da_0.tif. Saved 18 tiles. Time: 10.7s
+[369/754] Start e6ceb4_0.tif (7305x22186)
+[369/754] Finished e6ceb4_0.tif. Saved 172 tiles. Time: 3.5s
+[370/754] Start 21b106_0.tif (13212x30469)
+[370/754] Finished 21b106_0.tif. Saved 243 tiles. Time: 6.4s
+[371/754] Start fde9ba_0.tif (15629x33996)
+[371/754] Finished fde9ba_0.tif. Saved 224 tiles. Time: 7.9s
+[372/754] Start 8d60c1_0.tif (19769x38728)
+[372/754] Finished 8d60c1_0.tif. Saved 331 tiles. Time: 12.1s
+[373/754] Start e6ceb4_1.tif (12109x27702)
+[373/754] Finished e6ceb4_1.tif. Saved 338 tiles. Time: 6.0s
+[374/754] Start fbf2eb_0.tif (16502x27671)
+[374/754] Finished fbf2eb_0.tif. Saved 568 tiles. Time: 8.5s
+[375/754] Start 7c2739_0.tif (19786x38737)
+[375/754] Finished 7c2739_0.tif. Saved 965 tiles. Time: 14.5s
+[376/754] Start 45e3e0_0.tif (18684x35969)
+[376/754] Finished 45e3e0_0.tif. Saved 328 tiles. Time: 10.5s
+[377/754] Start abc4a3_0.tif (17545x42426)
+[377/754] Finished abc4a3_0.tif. Saved 172 tiles. Time: 10.5s
+[378/754] Start 86e319_2.tif (13591x23704)
+[378/754] Finished 86e319_2.tif. Saved 0 tiles. Time: 4.7s
+[379/754] Start 507ac9_0.tif (17607x31366)
+[379/754] Finished 507ac9_0.tif. Saved 1033 tiles. Time: 12.1s
+[380/754] Start f83bf0_0.tif (35228x34977)
+[380/754] Finished f83bf0_0.tif. Saved 1502 tiles. Time: 25.0s
+[381/754] Start 5415fe_0.tif (12107x32320)
+[381/754] Finished 5415fe_0.tif. Saved 194 tiles. Time: 6.0s
+[382/754] Start a26055_2.tif (29572x66348)
+[382/754] Finished a26055_2.tif. Saved 531 tiles. Time: 28.6s
+[383/754] Start eb6733_0.tif (20912x31350)
+[383/754] Finished eb6733_0.tif. Saved 309 tiles. Time: 10.0s
+[384/754] Start f1f952_2.tif (7220x26319)
+[384/754] Finished f1f952_2.tif. Saved 81 tiles. Time: 3.2s
+[385/754] Start b43ebe_0.tif (4417x5314)
+[385/754] Finished b43ebe_0.tif. Saved 0 tiles. Time: 0.5s
+[386/754] Start 098f15_0.tif (20983x16600)
+[386/754] Finished 098f15_0.tif. Saved 1310 tiles. Time: 10.3s
+[387/754] Start 376cf6_0.tif (9891x32325)
+[387/754] Finished 376cf6_0.tif. Saved 162 tiles. Time: 5.1s
+[388/754] Start a26055_1.tif (20789x57166)
+[388/754] Finished a26055_1.tif. Saved 317 tiles. Time: 17.1s
+[389/754] Start f40c69_0.tif (17243x44456)
+[389/754] Finished f40c69_0.tif. Saved 0 tiles. Time: 10.2s
+[390/754] Start d62b1d_0.tif (75771x29020)
+[390/754] Finished d62b1d_0.tif. Saved 1633 tiles. Time: 36.6s
+[391/754] Start 8c24eb_0.tif (12232x59219)
+[391/754] Finished 8c24eb_0.tif. Saved 361 tiles. Time: 11.1s
+[392/754] Start d4c955_1.tif (8154x26319)
+[392/754] Finished d4c955_1.tif. Saved 35 tiles. Time: 3.6s
+[393/754] Start edc9a4_0.tif (17386x83002)
+[393/754] Finished edc9a4_0.tif. Saved 1470 tiles. Time: 25.6s
+[394/754] Start 41b4ea_1.tif (18579x61791)
+[394/754] Finished 41b4ea_1.tif. Saved 69 tiles. Time: 15.3s
+[395/754] Start c5d171_0.tif (42889x46928)
+[395/754] Finished c5d171_0.tif. Saved 1045 tiles. Time: 32.8s
+[396/754] Start 3020ef_0.tif (85741x37879)
+[396/754] Finished 3020ef_0.tif. Saved 3247 tiles. Time: 61.2s
+[397/754] Start 992abf_0.tif (83747x24304)
+[397/754] Finished 992abf_0.tif. Saved 1677 tiles. Time: 38.7s
+[398/754] Start 0ed87f_1.tif (12124x24937)
+[398/754] Finished 0ed87f_1.tif. Saved 77 tiles. Time: 4.5s
+[399/754] Start 4094c4_0.tif (23015x55316)
+[399/754] Finished 4094c4_0.tif. Saved 1544 tiles. Time: 23.4s
+[400/754] Start 09644e_2.tif (18703x30433)
+[400/754] Finished 09644e_2.tif. Saved 782 tiles. Time: 11.0s
+[401/754] Start 6e08cb_0.tif (33023x34986)
+[401/754] Finished 6e08cb_0.tif. Saved 232 tiles. Time: 16.0s
+[402/754] Start baa4c4_0.tif (8154x17040)
+[402/754] Finished baa4c4_0.tif. Saved 94 tiles. Time: 2.5s
+[403/754] Start e3a230_0.tif (9004x40323)
+[403/754] Finished e3a230_0.tif. Saved 430 tiles. Time: 6.8s
+[404/754] Start 464289_0.tif (12232x9785)
+[404/754] Finished 464289_0.tif. Saved 123 tiles. Time: 2.3s
+[405/754] Start 7dd82f_0.tif (27427x49753)
+[405/754] Finished 7dd82f_0.tif. Saved 245 tiles. Time: 19.4s
+[406/754] Start 81eb29_0.tif (9791x52608)
+[406/754] Finished 81eb29_0.tif. Saved 336 tiles. Time: 8.8s
+[407/754] Start 9f7649_0.tif (11992x54443)
+[407/754] Finished 9f7649_0.tif. Saved 539 tiles. Time: 10.9s
+[408/754] Start 9f84c0_0.tif (23107x30407)
+[408/754] Finished 9f84c0_0.tif. Saved 263 tiles. Time: 10.5s
+[409/754] Start 34a278_0.tif (8579x5145)
+[409/754] Finished 34a278_0.tif. Saved 80 tiles. Time: 1.4s
+[410/754] Start 72df9e_0.tif (13166x34145)
+[410/754] Finished 72df9e_0.tif. Saved 612 tiles. Time: 8.7s
+[411/754] Start 4f49c1_0.tif (6795x7339)
+[411/754] Finished 4f49c1_0.tif. Saved 20 tiles. Time: 1.0s
+[412/754] Start 526dba_0.tif (15280x59961)
+[412/754] Finished 526dba_0.tif. Saved 976 tiles. Time: 16.5s
+[413/754] Start c30f14_0.tif (22032x28582)
+[413/754] Finished c30f14_0.tif. Saved 77 tiles. Time: 8.9s
+[414/754] Start 0f2961_0.tif (15302x52582)
+[414/754] Finished 0f2961_0.tif. Saved 935 tiles. Time: 14.8s
+[415/754] Start 4f9ac6_0.tif (5266x26657)
+[415/754] Finished 4f9ac6_0.tif. Saved 61 tiles. Time: 2.6s
+[416/754] Start 5f5dc0_0.tif (12174x15721)
+[416/754] Finished 5f5dc0_0.tif. Saved 49 tiles. Time: 3.2s
+[417/754] Start b3c755_0.tif (11067x16647)
+[417/754] Finished b3c755_0.tif. Saved 1 tiles. Time: 2.7s
+[418/754] Start 59441e_0.tif (22022x29500)
+[418/754] Finished 59441e_0.tif. Saved 1039 tiles. Time: 13.7s
+[419/754] Start 43c62b_0.tif (15338x46130)
+[419/754] Finished 43c62b_0.tif. Saved 491 tiles. Time: 11.2s
+[420/754] Start b525a8_0.tif (32960x46966)
+[420/754] Finished b525a8_0.tif. Saved 657 tiles. Time: 22.9s
+[421/754] Start dca376_0.tif (31852x49742)
+[421/754] Finished dca376_0.tif. Saved 3145 tiles. Time: 35.8s
+[422/754] Start 2f4974_0.tif (35891x15015)
+[422/754] Finished 2f4974_0.tif. Saved 279 tiles. Time: 9.1s
+[423/754] Start 9961af_0.tif (9683x29272)
+[423/754] Finished 9961af_0.tif. Saved 141 tiles. Time: 4.6s
+[424/754] Start 821964_0.tif (16407x55347)
+[424/754] Finished 821964_0.tif. Saved 1536 tiles. Time: 19.0s
+[425/754] Start 83ae16_0.tif (5181x43191)
+[425/754] Finished 83ae16_0.tif. Saved 44 tiles. Time: 4.0s
+[426/754] Start 13f372_0.tif (89729x34355)
+[426/754] Finished 13f372_0.tif. Saved 3924 tiles. Time: 59.3s
+[427/754] Start a4c877_2.tif (33991x66334)
+[427/754] Finished a4c877_2.tif. Saved 4819 tiles. Time: 50.5s
+[428/754] Start 777311_0.tif (14311x29538)
+[428/754] Finished 777311_0.tif. Saved 627 tiles. Time: 8.4s
+[429/754] Start 0ee750_1.tif (16507x32296)
+[429/754] Finished 0ee750_1.tif. Saved 362 tiles. Time: 8.6s
+[430/754] Start 9d609a_0.tif (14282x35069)
+[430/754] Finished 9d609a_0.tif. Saved 715 tiles. Time: 9.8s
+[431/754] Start e5bd0b_0.tif (7685x30489)
+[431/754] Finished e5bd0b_0.tif. Saved 475 tiles. Time: 5.3s
+[432/754] Start c92b51_0.tif (10991x32319)
+[432/754] Finished c92b51_0.tif. Saved 190 tiles. Time: 5.6s
+[433/754] Start bd783d_0.tif (14301x30458)
+[433/754] Finished bd783d_0.tif. Saved 394 tiles. Time: 7.4s
+[434/754] Start 03d1ec_0.tif (23125x30421)
+[434/754] Finished 03d1ec_0.tif. Saved 341 tiles. Time: 11.1s
+[435/754] Start ef68ba_0.tif (16482x36905)
+[435/754] Finished ef68ba_0.tif. Saved 308 tiles. Time: 9.7s
+[436/754] Start 79d1c1_1.tif (15324x47972)
+[436/754] Finished 79d1c1_1.tif. Saved 357 tiles. Time: 11.1s
+[437/754] Start cff1ce_0.tif (8884x11122)
+[437/754] Finished cff1ce_0.tif. Saved 84 tiles. Time: 2.0s
+[438/754] Start 7e9a65_0.tif (9950x20341)
+[438/754] Finished 7e9a65_0.tif. Saved 27 tiles. Time: 3.6s
+[439/754] Start 5f4bd3_0.tif (24050x70986)
+[439/754] Finished 5f4bd3_0.tif. Saved 1910 tiles. Time: 30.8s
+[440/754] Start 049194_0.tif (26443x26713)
+[440/754] Finished 049194_0.tif. Saved 366 tiles. Time: 11.8s
+[441/754] Start 09644e_1.tif (18660x41502)
+[441/754] Finished 09644e_1.tif. Saved 1027 tiles. Time: 15.2s
+[442/754] Start 6674a4_0.tif (25185x61758)
+[442/754] Finished 6674a4_0.tif. Saved 1346 tiles. Time: 26.3s
+[443/754] Start 2a25cf_0.tif (32824x77395)
+[443/754] Finished 2a25cf_0.tif. Saved 1183 tiles. Time: 38.9s
+[444/754] Start 5d4b88_0.tif (16734x58460)
+[444/754] Finished 5d4b88_0.tif. Saved 279 tiles. Time: 13.8s
+[445/754] Start 244aeb_0.tif (7814x4977)
+[445/754] Finished 244aeb_0.tif. Saved 10 tiles. Time: 0.8s
+[446/754] Start b1e363_1.tif (83747x36186)
+[446/754] Finished b1e363_1.tif. Saved 2323 tiles. Time: 54.2s
+[447/754] Start eb21f0_0.tif (35891x19918)
+[447/754] Finished eb21f0_0.tif. Saved 877 tiles. Time: 14.6s
+[448/754] Start abc4a3_1.tif (24121x52541)
+[448/754] Finished abc4a3_1.tif. Saved 301 tiles. Time: 17.8s
+[449/754] Start 79d1c1_0.tif (9806x47073)
+[449/754] Finished 79d1c1_0.tif. Saved 434 tiles. Time: 8.0s
+[450/754] Start 85868f_0.tif (24634x19992)
+[450/754] Finished 85868f_0.tif. Saved 13 tiles. Time: 7.8s
+[451/754] Start 79ae8d_0.tif (30882x20237)
+[451/754] Finished 79ae8d_0.tif. Saved 87 tiles. Time: 10.6s
+[452/754] Start fdf998_0.tif (28639x30399)
+[452/754] Finished fdf998_0.tif. Saved 95 tiles. Time: 12.5s
+[453/754] Start a2b566_0.tif (18689x35972)
+[453/754] Finished a2b566_0.tif. Saved 441 tiles. Time: 10.8s
+[454/754] Start fe9645_0.tif (19791x34118)
+[454/754] Finished fe9645_0.tif. Saved 391 tiles. Time: 10.5s
+[455/754] Start d44b91_0.tif (17434x69169)
+[455/754] Finished d44b91_0.tif. Saved 420 tiles. Time: 17.3s
+[456/754] Start c9ab6c_0.tif (32842x68163)
+[456/754] Finished c9ab6c_0.tif. Saved 4044 tiles. Time: 46.5s
+[457/754] Start fd418f_0.tif (24043x69137)
+[457/754] Finished fd418f_0.tif. Saved 937 tiles. Time: 26.1s
+[458/754] Start 533081_0.tif (11892x20246)
+[458/754] Finished 533081_0.tif. Saved 24 tiles. Time: 3.6s
+[459/754] Start d53809_0.tif (15388x35065)
+[459/754] Finished d53809_0.tif. Saved 932 tiles. Time: 11.2s
+[460/754] Start 658beb_0.tif (30799x37756)
+[460/754] Finished 658beb_0.tif. Saved 121 tiles. Time: 15.9s
+[461/754] Start b01110_0.tif (28701x13778)
+[461/754] Finished b01110_0.tif. Saved 800 tiles. Time: 9.3s
+[462/754] Start 3ab087_0.tif (12093x32314)
+[462/754] Finished 3ab087_0.tif. Saved 398 tiles. Time: 6.9s
+[463/754] Start 599e16_0.tif (39426x79207)
+[463/754] Finished 599e16_0.tif. Saved 2028 tiles. Time: 51.5s
+[464/754] Start 0d718a_0.tif (51843x12250)
+[464/754] Finished 0d718a_0.tif. Saved 351 tiles. Time: 10.7s
+[465/754] Start 0e696a_1.tif (15444x22155)
+[465/754] Finished 0e696a_1.tif. Saved 176 tiles. Time: 6.1s
+[466/754] Start 24f8f5_0.tif (25314x35950)
+[466/754] Finished 24f8f5_0.tif. Saved 1205 tiles. Time: 17.2s
+[467/754] Start 3b7d81_0.tif (46019x81015)
+[467/754] Finished 3b7d81_0.tif. Saved 1869 tiles. Time: 57.5s
+[468/754] Start e26a04_0.tif (17923x46397)
+[468/754] Finished e26a04_0.tif. Saved 4 tiles. Time: 10.9s
+[469/754] Start 355354_1.tif (24252x26735)
+[469/754] Finished 355354_1.tif. Saved 323 tiles. Time: 11.9s
+[470/754] Start ab1b6e_0.tif (51843x36423)
+[470/754] Finished ab1b6e_0.tif. Saved 108 tiles. Time: 27.3s
+[471/754] Start d6525e_0.tif (75771x22193)
+[471/754] Finished d6525e_0.tif. Saved 953 tiles. Time: 27.2s
+[472/754] Start a3a4cb_0.tif (14337x25855)
+[472/754] Finished a3a4cb_0.tif. Saved 75 tiles. Time: 6.1s
+[473/754] Start f4d8f8_0.tif (14695x27585)
+[473/754] Finished f4d8f8_0.tif. Saved 78 tiles. Time: 6.8s
+[474/754] Start f75146_0.tif (24207x35951)
+[474/754] Finished f75146_0.tif. Saved 239 tiles. Time: 12.6s
+[475/754] Start 79d52a_1.tif (55831x10734)
+[475/754] Finished 79d52a_1.tif. Saved 194 tiles. Time: 10.1s
+[476/754] Start 5987c0_3.tif (33069x22988)
+[476/754] Finished 5987c0_3.tif. Saved 242 tiles. Time: 10.9s
+[477/754] Start 4f6fb1_2.tif (15361x44291)
+[477/754] Finished 4f6fb1_2.tif. Saved 1150 tiles. Time: 14.0s
+[478/754] Start 1ec69e_0.tif (20795x53473)
+[478/754] Finished 1ec69e_0.tif. Saved 750 tiles. Time: 17.8s
+[479/754] Start 37258c_0.tif (24183x38710)
+[479/754] Finished 37258c_0.tif. Saved 170 tiles. Time: 13.5s
+[480/754] Start d23cd1_0.tif (15244x65490)
+[480/754] Finished d23cd1_0.tif. Saved 80 tiles. Time: 14.2s
+[481/754] Start 0ba49d_0.tif (25094x81119)
+[481/754] Finished 0ba49d_0.tif. Saved 323 tiles. Time: 29.6s
+[482/754] Start 0b25f8_0.tif (14297x34151)
+[482/754] Finished 0b25f8_0.tif. Saved 439 tiles. Time: 8.4s
+[483/754] Start 0372b0_0.tif (4841x25138)
+[483/754] Finished 0372b0_0.tif. Saved 108 tiles. Time: 2.6s
+[484/754] Start 8fc6d5_0.tif (5351x7507)
+[484/754] Finished 8fc6d5_0.tif. Saved 147 tiles. Time: 1.7s
+[485/754] Start fb5f7e_0.tif (10363x7339)
+[485/754] Finished fb5f7e_0.tif. Saved 0 tiles. Time: 1.3s
+[486/754] Start 6e211d_0.tif (14298x34152)
+[486/754] Finished 6e211d_0.tif. Saved 0 tiles. Time: 6.8s
+[487/754] Start 6e6d49_0.tif (5776x20836)
+[487/754] Finished 6e6d49_0.tif. Saved 77 tiles. Time: 2.4s
+[488/754] Start 611a50_0.tif (17534x47040)
+[488/754] Finished 611a50_0.tif. Saved 754 tiles. Time: 13.9s
+[489/754] Start 1f9d4f_0.tif (33882x86610)
+[489/754] Finished 1f9d4f_0.tif. Saved 2653 tiles. Time: 49.9s
+[490/754] Start f3e9f6_0.tif (5946x7676)
+[490/754] Finished f3e9f6_0.tif. Saved 21 tiles. Time: 0.9s
+[491/754] Start 73c9a4_0.tif (14149x64574)
+[491/754] Finished 73c9a4_0.tif. Saved 1403 tiles. Time: 17.9s
+[492/754] Start 217b27_0.tif (12031x44298)
+[492/754] Finished 217b27_0.tif. Saved 677 tiles. Time: 9.9s
+[493/754] Start a975ab_0.tif (13761x24126)
+[493/754] Finished a975ab_0.tif. Saved 116 tiles. Time: 5.0s
+[494/754] Start dfd99d_0.tif (19685x59017)
+[494/754] Finished dfd99d_0.tif. Saved 452 tiles. Time: 17.1s
+[495/754] Start 62dd90_0.tif (5946x28766)
+[495/754] Finished 62dd90_0.tif. Saved 47 tiles. Time: 3.4s
+[496/754] Start 21726e_0.tif (18727x26749)
+[496/754] Finished 21726e_0.tif. Saved 504 tiles. Time: 9.0s
+[497/754] Start 5671c1_0.tif (18766x21227)
+[497/754] Finished 5671c1_0.tif. Saved 318 tiles. Time: 6.8s
+[498/754] Start f27c51_0.tif (23098x37801)
+[498/754] Finished f27c51_0.tif. Saved 858 tiles. Time: 15.3s
+[499/754] Start 6baf51_1.tif (55123x46036)
+[499/754] Finished 6baf51_1.tif. Saved 3660 tiles. Time: 51.1s
+[500/754] Start 880f54_0.tif (36138x78307)
+[500/754] Finished 880f54_0.tif. Saved 3570 tiles. Time: 53.5s
+[501/754] Start a9573c_0.tif (21945x43324)
+[501/754] Finished a9573c_0.tif. Saved 139 tiles. Time: 13.1s
+[502/754] Start f7fb11_0.tif (20907x34121)
+[502/754] Finished f7fb11_0.tif. Saved 580 tiles. Time: 12.4s
+[503/754] Start 481ba8_0.tif (11049x18485)
+[503/754] Finished 481ba8_0.tif. Saved 281 tiles. Time: 4.0s
+[504/754] Start 9f0f05_0.tif (16448x42433)
+[504/754] Finished 9f0f05_0.tif. Saved 751 tiles. Time: 12.3s
+[505/754] Start 5d819a_0.tif (25259x47010)
+[505/754] Finished 5d819a_0.tif. Saved 971 tiles. Time: 20.2s
+[506/754] Start 862501_1.tif (15267x60881)
+[506/754] Finished 862501_1.tif. Saved 704 tiles. Time: 15.6s
+[507/754] Start 1db82d_1.tif (21932x52559)
+[507/754] Finished 1db82d_1.tif. Saved 422 tiles. Time: 17.6s
+[508/754] Start 9cc010_0.tif (10974x36007)
+[508/754] Finished 9cc010_0.tif. Saved 334 tiles. Time: 7.2s
+[509/754] Start 4f6fb1_1.tif (9089x25982)
+[509/754] Finished 4f6fb1_1.tif. Saved 117 tiles. Time: 5.3s
+[510/754] Start 369366_0.tif (19112x32477)
+[510/754] Finished 369366_0.tif. Saved 24 tiles. Time: 8.5s
+[511/754] Start 80cc1b_0.tif (7698x26799)
+[511/754] Finished 80cc1b_0.tif. Saved 93 tiles. Time: 3.4s
+[512/754] Start 0ff6fc_0.tif (18674x38737)
+[512/754] Finished 0ff6fc_0.tif. Saved 236 tiles. Time: 11.0s
+[513/754] Start 690b81_0.tif (18692x34125)
+[513/754] Finished 690b81_0.tif. Saved 1156 tiles. Time: 13.7s
+[514/754] Start 991ad1_0.tif (9174x23198)
+[514/754] Finished 991ad1_0.tif. Saved 5 tiles. Time: 3.0s
+[515/754] Start 3a230b_0.tif (21893x55314)
+[515/754] Finished 3a230b_0.tif. Saved 561 tiles. Time: 18.9s
+[516/754] Start 0e696a_0.tif (15396x35993)
+[516/754] Finished 0e696a_0.tif. Saved 1105 tiles. Time: 12.3s
+[517/754] Start 3d10be_3.tif (10533x16787)
+[517/754] Finished 3d10be_3.tif. Saved 0 tiles. Time: 2.7s
+[518/754] Start a6f5ae_0.tif (22021x29500)
+[518/754] Finished a6f5ae_0.tif. Saved 25 tiles. Time: 8.9s
+[519/754] Start 977a49_0.tif (28580x39606)
+[519/754] Finished 977a49_0.tif. Saved 1368 tiles. Time: 21.3s
+[520/754] Start 79d52a_0.tif (30763x46056)
+[520/754] Finished 79d52a_0.tif. Saved 1050 tiles. Time: 23.6s
+[521/754] Start 028989_0.tif (32789x85695)
+[521/754] Finished 028989_0.tif. Saved 5852 tiles. Time: 63.4s
+[522/754] Start 53845a_1.tif (19755x41494)
+[522/754] Finished 53845a_1.tif. Saved 1415 tiles. Time: 17.1s
+[523/754] Start 5cae18_1.tif (9974x13884)
+[523/754] Finished 5cae18_1.tif. Saved 64 tiles. Time: 2.4s
+[524/754] Start 70c523_0.tif (15489x12936)
+[524/754] Finished 70c523_0.tif. Saved 186 tiles. Time: 3.6s
+[525/754] Start 4c284f_0.tif (16458x40590)
+[525/754] Finished 4c284f_0.tif. Saved 724 tiles. Time: 12.3s
+[526/754] Start 7b9aaa_0.tif (13846x33237)
+[526/754] Finished 7b9aaa_0.tif. Saved 181 tiles. Time: 8.3s
+[527/754] Start 46e479_0.tif (26379x41469)
+[527/754] Finished 46e479_0.tif. Saved 939 tiles. Time: 18.5s
+[528/754] Start 045eb0_0.tif (16489x35060)
+[528/754] Finished 045eb0_0.tif. Saved 674 tiles. Time: 10.7s
+[529/754] Start d2e447_0.tif (15490x13863)
+[529/754] Finished d2e447_0.tif. Saved 305 tiles. Time: 5.3s
+[530/754] Start 2268cf_0.tif (16413x49809)
+[530/754] Finished 2268cf_0.tif. Saved 0 tiles. Time: 11.4s
+[531/754] Start c4da19_0.tif (18638x45188)
+[531/754] Finished c4da19_0.tif. Saved 1393 tiles. Time: 17.6s
+[532/754] Start d25a2f_0.tif (37885x14779)
+[532/754] Finished d25a2f_0.tif. Saved 97 tiles. Time: 9.1s
+[533/754] Start 2b7304_2.tif (24055x69141)
+[533/754] Finished 2b7304_2.tif. Saved 957 tiles. Time: 26.1s
+[534/754] Start 5987c0_2.tif (20893x33188)
+[534/754] Finished 5987c0_2.tif. Saved 608 tiles. Time: 12.0s
+[535/754] Start 82399d_1.tif (22999x58081)
+[535/754] Finished 82399d_1.tif. Saved 1062 tiles. Time: 22.9s
+[536/754] Start db268c_0.tif (27324x74654)
+[536/754] Finished db268c_0.tif. Saved 1273 tiles. Time: 32.2s
+[537/754] Start 1295bb_0.tif (9889x32324)
+[537/754] Finished 1295bb_0.tif. Saved 511 tiles. Time: 6.6s
+[538/754] Start d1da59_0.tif (12036x44300)
+[538/754] Finished d1da59_0.tif. Saved 375 tiles. Time: 9.1s
+[539/754] Start 366fd0_0.tif (25286x38705)
+[539/754] Finished 366fd0_0.tif. Saved 1049 tiles. Time: 17.9s
+[540/754] Start 070fe0_0.tif (14355x19394)
+[540/754] Finished 070fe0_0.tif. Saved 221 tiles. Time: 5.0s
+[541/754] Start 392b24_0.tif (34103x42366)
+[541/754] Finished 392b24_0.tif. Saved 77 tiles. Time: 20.0s
+[542/754] Start b6f1e9_0.tif (29570x67271)
+[542/754] Finished b6f1e9_0.tif. Saved 376 tiles. Time: 28.9s
+[543/754] Start 98db2b_0.tif (28706x15648)
+[543/754] Finished 98db2b_0.tif. Saved 626 tiles. Time: 8.8s
+[544/754] Start 384052_0.tif (15327x47050)
+[544/754] Finished 384052_0.tif. Saved 952 tiles. Time: 13.5s
+[545/754] Start 19b036_0.tif (14322x28620)
+[545/754] Finished 19b036_0.tif. Saved 853 tiles. Time: 9.4s
+[546/754] Start fa9747_0.tif (39879x23540)
+[546/754] Finished fa9747_0.tif. Saved 246 tiles. Time: 15.4s
+[547/754] Start 112b6e_1.tif (26339x49766)
+[547/754] Finished 112b6e_1.tif. Saved 443 tiles. Time: 20.5s
+[548/754] Start 008e5c_0.tif (5946x29694)
+[548/754] Finished 008e5c_0.tif. Saved 255 tiles. Time: 3.7s
+[549/754] Start 540410_0.tif (8884x12972)
+[549/754] Finished 540410_0.tif. Saved 175 tiles. Time: 3.0s
+[550/754] Start ba8305_0.tif (24150x46087)
+[550/754] Finished ba8305_0.tif. Saved 1311 tiles. Time: 20.9s
+[551/754] Start 2446b8_0.tif (18709x32286)
+[551/754] Finished 2446b8_0.tif. Saved 533 tiles. Time: 10.4s
+[552/754] Start 512856_0.tif (31827x56198)
+[552/754] Finished 512856_0.tif. Saved 1318 tiles. Time: 29.7s
+[553/754] Start 4763a7_0.tif (8783x28635)
+[553/754] Finished 4763a7_0.tif. Saved 208 tiles. Time: 4.5s
+[554/754] Start 516e18_1.tif (7730x22608)
+[554/754] Finished 516e18_1.tif. Saved 103 tiles. Time: 3.4s
+[555/754] Start 719165_0.tif (17573x38743)
+[555/754] Finished 719165_0.tif. Saved 586 tiles. Time: 12.2s
+[556/754] Start bec7ca_0.tif (15510x9253)
+[556/754] Finished bec7ca_0.tif. Saved 523 tiles. Time: 4.2s
+[557/754] Start 56d177_4.tif (15375x28006)
+[557/754] Finished 56d177_4.tif. Saved 9 tiles. Time: 6.3s
+[558/754] Start 7fd9f4_0.tif (18697x31354)
+[558/754] Finished 7fd9f4_0.tif. Saved 545 tiles. Time: 10.5s
+[559/754] Start 9de0fa_0.tif (9899x30481)
+[559/754] Finished 9de0fa_0.tif. Saved 458 tiles. Time: 6.2s
+[560/754] Start 291099_0.tif (16497x33216)
+[560/754] Finished 291099_0.tif. Saved 639 tiles. Time: 10.1s
+[561/754] Start 1764ff_0.tif (19881x15678)
+[561/754] Finished 1764ff_0.tif. Saved 156 tiles. Time: 5.6s
+[562/754] Start b43ebe_1.tif (24063x67297)
+[562/754] Finished b43ebe_1.tif. Saved 1057 tiles. Time: 26.1s
+[563/754] Start 3fe88b_0.tif (24166x42398)
+[563/754] Finished 3fe88b_0.tif. Saved 97 tiles. Time: 15.2s
+[564/754] Start 2b7304_1.tif (24161x44244)
+[564/754] Finished 2b7304_1.tif. Saved 499 tiles. Time: 16.7s
+[565/754] Start 5619c3_0.tif (12486x36780)
+[565/754] Finished 5619c3_0.tif. Saved 0 tiles. Time: 7.5s
+[566/754] Start 6fe1f2_0.tif (25179x60832)
+[566/754] Finished 6fe1f2_0.tif. Saved 932 tiles. Time: 24.1s
+[567/754] Start 0e4dac_0.tif (73777x38568)
+[567/754] Finished 0e4dac_0.tif. Saved 3590 tiles. Time: 56.7s
+[568/754] Start 251c77_0.tif (18711x31362)
+[568/754] Finished 251c77_0.tif. Saved 8 tiles. Time: 8.4s
+[569/754] Start b25f2b_0.tif (36298x43274)
+[569/754] Finished b25f2b_0.tif. Saved 2041 tiles. Time: 30.4s
+[570/754] Start 5987c0_0.tif (16500x32293)
+[570/754] Finished 5987c0_0.tif. Saved 190 tiles. Time: 9.8s
+[571/754] Start 35b75a_0.tif (9863x36010)
+[571/754] Finished 35b75a_0.tif. Saved 265 tiles. Time: 6.4s
+[572/754] Start 0ff890_0.tif (12741x45553)
+[572/754] Finished 0ff890_0.tif. Saved 4 tiles. Time: 8.0s
+[573/754] Start d3d21b_0.tif (22031x27657)
+[573/754] Finished d3d21b_0.tif. Saved 731 tiles. Time: 11.5s
+[574/754] Start e732f6_0.tif (25244x48850)
+[574/754] Finished e732f6_0.tif. Saved 2284 tiles. Time: 26.0s
+[575/754] Start 82653f_0.tif (18545x62704)
+[575/754] Finished 82653f_0.tif. Saved 563 tiles. Time: 18.7s
+[576/754] Start c31442_0.tif (11212x31634)
+[576/754] Finished c31442_0.tif. Saved 0 tiles. Time: 4.8s
+[577/754] Start 533081_1.tif (27479x43311)
+[577/754] Finished 533081_1.tif. Saved 881 tiles. Time: 20.2s
+[578/754] Start 2ecb46_0.tif (17693x12926)
+[578/754] Finished 2ecb46_0.tif. Saved 402 tiles. Time: 4.9s
+[579/754] Start 70c523_1.tif (5181x20246)
+[579/754] Finished 70c523_1.tif. Saved 16 tiles. Time: 1.6s
+[580/754] Start f94fb1_0.tif (37421x68269)
+[580/754] Finished f94fb1_0.tif. Saved 1768 tiles. Time: 41.9s
+[581/754] Start a24fac_0.tif (20995x15687)
+[581/754] Finished a24fac_0.tif. Saved 56 tiles. Time: 5.2s
+[582/754] Start 3fe8a3_0.tif (13091x56283)
+[582/754] Finished 3fe8a3_0.tif. Saved 326 tiles. Time: 11.9s
+[583/754] Start d44b91_1.tif (27429x50678)
+[583/754] Finished d44b91_1.tif. Saved 915 tiles. Time: 22.4s
+[584/754] Start 29a4f6_0.tif (19786x37813)
+[584/754] Finished 29a4f6_0.tif. Saved 228 tiles. Time: 11.4s
+[585/754] Start a1f13b_0.tif (13222x27702)
+[585/754] Finished a1f13b_0.tif. Saved 371 tiles. Time: 6.5s
+[586/754] Start 2394f6_0.tif (36325x34966)
+[586/754] Finished 2394f6_0.tif. Saved 1002 tiles. Time: 21.5s
+[587/754] Start 33d071_0.tif (9833x44310)
+[587/754] Finished 33d071_0.tif. Saved 806 tiles. Time: 9.5s
+[588/754] Start d7a20d_0.tif (36364x28522)
+[588/754] Finished d7a20d_0.tif. Saved 184 tiles. Time: 15.2s
+[589/754] Start 2bcdd9_0.tif (22986x59923)
+[589/754] Finished 2bcdd9_0.tif. Saved 314 tiles. Time: 21.3s
+[590/754] Start 2745fc_0.tif (21962x45181)
+[590/754] Finished 2745fc_0.tif. Saved 945 tiles. Time: 17.3s
+[591/754] Start af7a93_0.tif (8862x16657)
+[591/754] Finished af7a93_0.tif. Saved 9 tiles. Time: 2.3s
+[592/754] Start 244aeb_2.tif (6880x5230)
+[592/754] Finished 244aeb_2.tif. Saved 0 tiles. Time: 1.2s
+[593/754] Start 81092a_0.tif (26370x43312)
+[593/754] Finished 81092a_0.tif. Saved 27 tiles. Time: 15.8s
+[594/754] Start 634e2f_0.tif (73777x29897)
+[594/754] Finished 634e2f_0.tif. Saved 2468 tiles. Time: 43.4s
+[595/754] Start bdf3c2_0.tif (18719x29518)
+[595/754] Finished bdf3c2_0.tif. Saved 663 tiles. Time: 10.3s
+[596/754] Start 69450f_0.tif (18718x31366)
+[596/754] Finished 69450f_0.tif. Saved 316 tiles. Time: 9.2s
+[597/754] Start deec71_0.tif (16452x35967)
+[597/754] Finished deec71_0.tif. Saved 281 tiles. Time: 9.8s
+[598/754] Start 533a49_0.tif (12107x29549)
+[598/754] Finished 533a49_0.tif. Saved 380 tiles. Time: 6.5s
+[599/754] Start dba56f_0.tif (9987x10191)
+[599/754] Finished dba56f_0.tif. Saved 3 tiles. Time: 1.7s
+[600/754] Start 827928_1.tif (28504x59901)
+[600/754] Finished 827928_1.tif. Saved 1375 tiles. Time: 29.5s
+[601/754] Start 50ba15_0.tif (25161x62672)
+[601/754] Finished 50ba15_0.tif. Saved 845 tiles. Time: 24.8s
+[602/754] Start fd368e_0.tif (24187x39637)
+[602/754] Finished fd368e_0.tif. Saved 1124 tiles. Time: 17.7s
+[603/754] Start 957643_0.tif (9885x32323)
+[603/754] Finished 957643_0.tif. Saved 287 tiles. Time: 5.7s
+[604/754] Start 56d177_0.tif (14185x20499)
+[604/754] Finished 56d177_0.tif. Saved 9 tiles. Time: 4.0s
+[605/754] Start e72352_0.tif (18178x68752)
+[605/754] Finished e72352_0.tif. Saved 5 tiles. Time: 17.3s
+[606/754] Start 9e06cb_0.tif (11127x21342)
+[606/754] Finished 9e06cb_0.tif. Saved 0 tiles. Time: 3.7s
+[607/754] Start aeb3bd_0.tif (12099x30469)
+[607/754] Finished aeb3bd_0.tif. Saved 566 tiles. Time: 7.6s
+[608/754] Start df4c9c_0.tif (11030x24022)
+[608/754] Finished df4c9c_0.tif. Saved 153 tiles. Time: 5.2s
+[609/754] Start fbdcde_1.tif (87735x37404)
+[609/754] Finished fbdcde_1.tif. Saved 3589 tiles. Time: 63.0s
+[610/754] Start b6fffe_0.tif (9888x32324)
+[610/754] Finished b6fffe_0.tif. Saved 528 tiles. Time: 6.6s
+[611/754] Start 129102_0.tif (12150x21253)
+[611/754] Finished 129102_0.tif. Saved 606 tiles. Time: 6.2s
+[612/754] Start 19b036_1.tif (18574x58096)
+[612/754] Finished 19b036_1.tif. Saved 348 tiles. Time: 16.0s
+[613/754] Start 86e319_0.tif (13238x23089)
+[613/754] Finished 86e319_0.tif. Saved 35 tiles. Time: 4.7s
+[614/754] Start d8db68_0.tif (24194x37792)
+[614/754] Finished d8db68_0.tif. Saved 672 tiles. Time: 15.0s
+[615/754] Start 214cfa_1.tif (22838x84808)
+[615/754] Finished 214cfa_1.tif. Saved 1805 tiles. Time: 33.6s
+[616/754] Start 23d2c1_0.tif (17514x49804)
+[616/754] Finished 23d2c1_0.tif. Saved 1552 tiles. Time: 18.5s
+[617/754] Start f115aa_0.tif (13087x52590)
+[617/754] Finished f115aa_0.tif. Saved 29 tiles. Time: 9.4s
+[618/754] Start caf901_0.tif (24233x25791)
+[618/754] Finished caf901_0.tif. Saved 150 tiles. Time: 10.2s
+[619/754] Start e3e850_0.tif (99699x23300)
+[619/754] Finished e3e850_0.tif. Saved 609 tiles. Time: 34.8s
+[620/754] Start 516e18_0.tif (14317x25844)
+[620/754] Finished 516e18_0.tif. Saved 459 tiles. Time: 7.0s
+[621/754] Start b21b87_0.tif (9004x59050)
+[621/754] Finished b21b87_0.tif. Saved 80 tiles. Time: 8.6s
+[622/754] Start a4c877_3.tif (24108x57155)
+[622/754] Finished a4c877_3.tif. Saved 1823 tiles. Time: 26.6s
+[623/754] Start 3cbdf3_0.tif (55831x8724)
+[623/754] Finished 3cbdf3_0.tif. Saved 51 tiles. Time: 7.3s
+[624/754] Start defd00_0.tif (31723x76477)
+[624/754] Finished defd00_0.tif. Saved 1185 tiles. Time: 36.8s
+[625/754] Start 6f6e0c_0.tif (18772x17529)
+[625/754] Finished 6f6e0c_0.tif. Saved 381 tiles. Time: 6.4s
+[626/754] Start a4c7df_0.tif (30732x55283)
+[626/754] Finished a4c7df_0.tif. Saved 853 tiles. Time: 26.5s
+[627/754] Start 6f9575_0.tif (24888x56505)
+[627/754] Finished 6f9575_0.tif. Saved 43 tiles. Time: 19.0s
+[628/754] Start 41db5b_0.tif (18662x39655)
+[628/754] Finished 41db5b_0.tif. Saved 857 tiles. Time: 14.3s
+[629/754] Start e9c181_0.tif (10984x34164)
+[629/754] Finished e9c181_0.tif. Saved 69 tiles. Time: 6.0s
+[630/754] Start c12836_1.tif (25311x32246)
+[630/754] Finished c12836_1.tif. Saved 801 tiles. Time: 14.2s
+[631/754] Start 0aff58_0.tif (7305x23451)
+[631/754] Finished 0aff58_0.tif. Saved 143 tiles. Time: 3.9s
+[632/754] Start c30f14_1.tif (17602x33212)
+[632/754] Finished c30f14_1.tif. Saved 123 tiles. Time: 8.8s
+[633/754] Start f9fc6b_0.tif (38398x65388)
+[633/754] Finished f9fc6b_0.tif. Saved 539 tiles. Time: 35.2s
+[634/754] Start dbd64b_0.tif (9174x7845)
+[634/754] Finished dbd64b_0.tif. Saved 130 tiles. Time: 1.9s
+[635/754] Start 6c4b62_0.tif (17507x55342)
+[635/754] Finished 6c4b62_0.tif. Saved 422 tiles. Time: 14.8s
+[636/754] Start 437435_0.tif (12402x28934)
+[636/754] Finished 437435_0.tif. Saved 152 tiles. Time: 6.3s
+[637/754] Start c01d28_0.tif (24235x29497)
+[637/754] Finished c01d28_0.tif. Saved 841 tiles. Time: 14.1s
+[638/754] Start 395ea0_0.tif (14266x36910)
+[638/754] Finished 395ea0_0.tif. Saved 275 tiles. Time: 8.5s
+[639/754] Start 83bfad_0.tif (15350x43364)
+[639/754] Finished 83bfad_0.tif. Saved 332 tiles. Time: 10.3s
+[640/754] Start f1f952_0.tif (8069x23367)
+[640/754] Finished f1f952_0.tif. Saved 32 tiles. Time: 3.1s
+[641/754] Start f40c69_2.tif (25227x53462)
+[641/754] Finished f40c69_2.tif. Saved 56 tiles. Time: 18.9s
+[642/754] Start dc8f86_1.tif (16421x51659)
+[642/754] Finished dc8f86_1.tif. Saved 1005 tiles. Time: 15.5s
+[643/754] Start 5fde88_0.tif (9835x45234)
+[643/754] Finished 5fde88_0.tif. Saved 44 tiles. Time: 6.2s
+[644/754] Start c32d76_2.tif (20811x30369)
+[644/754] Finished c32d76_2.tif. Saved 93 tiles. Time: 9.8s
+[645/754] Start 12c8c9_0.tif (18348x30706)
+[645/754] Finished 12c8c9_0.tif. Saved 227 tiles. Time: 8.6s
+[646/754] Start 3152c0_0.tif (6710x28260)
+[646/754] Finished 3152c0_0.tif. Saved 77 tiles. Time: 3.1s
+[647/754] Start 509042_0.tif (31735x71863)
+[647/754] Finished 509042_0.tif. Saved 1018 tiles. Time: 34.5s
+[648/754] Start 3d10be_4.tif (7645x9954)
+[648/754] Finished 3d10be_4.tif. Saved 0 tiles. Time: 1.8s
+[649/754] Start 3d10be_2.tif (17696x13857)
+[649/754] Finished 3d10be_2.tif. Saved 0 tiles. Time: 4.6s
+[650/754] Start 36a149_0.tif (47855x38020)
+[650/754] Finished 36a149_0.tif. Saved 214 tiles. Time: 24.8s
+[651/754] Start e0cfd5_0.tif (17588x35977)
+[651/754] Finished e0cfd5_0.tif. Saved 747 tiles. Time: 11.9s
+[652/754] Start 3bfe64_0.tif (21661x66221)
+[652/754] Finished 3bfe64_0.tif. Saved 347 tiles. Time: 20.4s
+[653/754] Start 5d4b88_1.tif (13761x30031)
+[653/754] Finished 5d4b88_1.tif. Saved 162 tiles. Time: 7.6s
+[654/754] Start fdce0f_2.tif (11101x8345)
+[654/754] Finished fdce0f_2.tif. Saved 120 tiles. Time: 2.0s
+[655/754] Start d36b5f_0.tif (20884x34107)
+[655/754] Finished d36b5f_0.tif. Saved 465 tiles. Time: 11.7s
+[656/754] Start fdf998_1.tif (25379x18417)
+[656/754] Finished fdf998_1.tif. Saved 615 tiles. Time: 9.8s
+[657/754] Start 0b7871_0.tif (26445x27641)
+[657/754] Finished 0b7871_0.tif. Saved 632 tiles. Time: 14.0s
+[658/754] Start 032f10_0.tif (6598x28652)
+[658/754] Finished 032f10_0.tif. Saved 230 tiles. Time: 3.7s
+[659/754] Start 9f7649_1.tif (13089x56282)
+[659/754] Finished 9f7649_1.tif. Saved 640 tiles. Time: 12.5s
+[660/754] Start 9fd56b_0.tif (27347x68197)
+[660/754] Finished 9fd56b_0.tif. Saved 421 tiles. Time: 26.3s
+[661/754] Start e3a24f_0.tif (41681x67208)
+[661/754] Finished e3a24f_0.tif. Saved 2209 tiles. Time: 47.6s
+[662/754] Start d20177_0.tif (12062x69089)
+[662/754] Finished d20177_0.tif. Saved 368 tiles. Time: 12.7s
+[663/754] Start 9f305c_0.tif (10533x9532)
+[663/754] Finished 9f305c_0.tif. Saved 34 tiles. Time: 2.4s
+[664/754] Start 8781e2_0.tif (16478x36903)
+[664/754] Finished 8781e2_0.tif. Saved 283 tiles. Time: 9.4s
+[665/754] Start 3982bf_0.tif (91723x37337)
+[665/754] Finished 3982bf_0.tif. Saved 4138 tiles. Time: 67.7s
+[666/754] Start eebf8d_1.tif (14336x24930)
+[666/754] Finished eebf8d_1.tif. Saved 304 tiles. Time: 6.0s
+[667/754] Start adc6e3_0.tif (14316x26768)
+[667/754] Finished adc6e3_0.tif. Saved 611 tiles. Time: 7.8s
+[668/754] Start dc8f86_0.tif (13185x33229)
+[668/754] Finished dc8f86_0.tif. Saved 972 tiles. Time: 10.2s
+[669/754] Start c61b26_0.tif (9999x7422)
+[669/754] Finished c61b26_0.tif. Saved 144 tiles. Time: 2.5s
+[670/754] Start 45a0e5_1.tif (15410x29532)
+[670/754] Finished 45a0e5_1.tif. Saved 0 tiles. Time: 6.1s
+[671/754] Start 5fdff2_0.tif (24125x51619)
+[671/754] Finished 5fdff2_0.tif. Saved 668 tiles. Time: 19.3s
+[672/754] Start 3bc9c9_0.tif (30675x64495)
+[672/754] Finished 3bc9c9_0.tif. Saved 1201 tiles. Time: 31.4s
+[673/754] Start 20d5cf_0.tif (11032x24946)
+[673/754] Finished 20d5cf_0.tif. Saved 102 tiles. Time: 4.3s
+[674/754] Start cb1293_0.tif (93717x33084)
+[674/754] Finished cb1293_0.tif. Saved 3222 tiles. Time: 59.7s
+[675/754] Start fd684f_0.tif (36163x73699)
+[675/754] Finished fd684f_0.tif. Saved 2802 tiles. Time: 47.5s
+[676/754] Start 802de5_0.tif (16364x62721)
+[676/754] Finished 802de5_0.tif. Saved 777 tiles. Time: 16.9s
+[677/754] Start 33d2a7_0.tif (21991x37803)
+[677/754] Finished 33d2a7_0.tif. Saved 1268 tiles. Time: 16.5s
+[678/754] Start 0cc0bc_0.tif (8880x12045)
+[678/754] Finished 0cc0bc_0.tif. Saved 130 tiles. Time: 2.8s
+[679/754] Start 0d93ce_0.tif (59819x33395)
+[679/754] Finished 0d93ce_0.tif. Saved 948 tiles. Time: 33.4s
+[680/754] Start 856ae6_0.tif (13166x27585)
+[680/754] Finished 856ae6_0.tif. Saved 37 tiles. Time: 5.6s
+[681/754] Start f1f952_1.tif (16224x34586)
+[681/754] Finished f1f952_1.tif. Saved 91 tiles. Time: 8.3s
+[682/754] Start a45b72_0.tif (13197x29538)
+[682/754] Finished a45b72_0.tif. Saved 310 tiles. Time: 6.7s
+[683/754] Start 54838a_0.tif (9892x33249)
+[683/754] Finished 54838a_0.tif. Saved 523 tiles. Time: 6.8s
+[684/754] Start 91b9d3_1.tif (13081x46312)
+[684/754] Finished 91b9d3_1.tif. Saved 5 tiles. Time: 8.3s
+[685/754] Start c32d76_1.tif (22012x31343)
+[685/754] Finished c32d76_1.tif. Saved 172 tiles. Time: 10.0s
+[686/754] Start 69d655_0.tif (21901x55317)
+[686/754] Finished 69d655_0.tif. Saved 771 tiles. Time: 19.2s
+[687/754] Start f40c69_3.tif (25311x32247)
+[687/754] Finished f40c69_3.tif. Saved 88 tiles. Time: 11.2s
+[688/754] Start 9874eb_0.tif (30599x112548)
+[688/754] Finished 9874eb_0.tif. Saved 3466 tiles. Time: 60.3s
+[689/754] Start 1db82d_0.tif (17592x35055)
+[689/754] Finished 1db82d_0.tif. Saved 4 tiles. Time: 9.0s
+[690/754] Start fd3079_0.tif (17073x22523)
+[690/754] Finished fd3079_0.tif. Saved 0 tiles. Time: 5.3s
+[691/754] Start a59c0d_1.tif (22975x64537)
+[691/754] Finished a59c0d_1.tif. Saved 154 tiles. Time: 21.6s
+[692/754] Start ebce5d_0.tif (12110x29550)
+[692/754] Finished ebce5d_0.tif. Saved 277 tiles. Time: 6.3s
+[693/754] Start 1f9d4f_1.tif (19753x45189)
+[693/754] Finished 1f9d4f_1.tif. Saved 970 tiles. Time: 16.1s
+[694/754] Start e26a04_1.tif (16649x22354)
+[694/754] Finished e26a04_1.tif. Saved 197 tiles. Time: 7.0s
+[695/754] Start fbdcde_0.tif (89729x30983)
+[695/754] Finished fbdcde_0.tif. Saved 4880 tiles. Time: 63.1s
+[696/754] Start dd05a2_0.tif (24168x45172)
+[696/754] Finished dd05a2_0.tif. Saved 1480 tiles. Time: 20.8s
+[697/754] Start 820c9f_0.tif (32951x51584)
+[697/754] Finished 820c9f_0.tif. Saved 1138 tiles. Time: 27.8s
+[698/754] Start 99c5c8_0.tif (39557x75617)
+[698/754] Finished 99c5c8_0.tif. Saved 4882 tiles. Time: 59.6s
+[699/754] Start 1d1bf0_0.tif (17594x34132)
+[699/754] Finished 1d1bf0_0.tif. Saved 559 tiles. Time: 10.9s
+[700/754] Start 2b49d6_0.tif (8579x7929)
+[700/754] Finished 2b49d6_0.tif. Saved 0 tiles. Time: 1.2s
+[701/754] Start 86696d_0.tif (29614x59900)
+[701/754] Finished 86696d_0.tif. Saved 2513 tiles. Time: 35.0s
+[702/754] Start 65fe16_0.tif (14695x20414)
+[702/754] Finished 65fe16_0.tif. Saved 2 tiles. Time: 4.1s
+[703/754] Start 4f6fb1_0.tif (17581x36898)
+[703/754] Finished 4f6fb1_0.tif. Saved 703 tiles. Time: 11.7s
+[704/754] Start 7f2ee2_0.tif (16617x6465)
+[704/754] Finished 7f2ee2_0.tif. Saved 427 tiles. Time: 3.3s
+[705/754] Start 9010a1_0.tif (18641x48884)
+[705/754] Finished 9010a1_0.tif. Saved 991 tiles. Time: 16.4s
+[706/754] Start b8ef90_0.tif (15364x40598)
+[706/754] Finished b8ef90_0.tif. Saved 1235 tiles. Time: 13.8s
+[707/754] Start cc73c0_0.tif (59819x13395)
+[707/754] Finished cc73c0_0.tif. Saved 401 tiles. Time: 15.2s
+[708/754] Start 0b7cc8_0.tif (11100x10197)
+[708/754] Finished 0b7cc8_0.tif. Saved 68 tiles. Time: 2.2s
+[709/754] Start 251bfc_0.tif (10533x48674)
+[709/754] Finished 251bfc_0.tif. Saved 453 tiles. Time: 8.9s
+[710/754] Start 6fac27_0.tif (4756x16787)
+[710/754] Finished 6fac27_0.tif. Saved 35 tiles. Time: 1.6s
+[711/754] Start cb2534_0.tif (31935x30374)
+[711/754] Finished cb2534_0.tif. Saved 106 tiles. Time: 14.8s
+[712/754] Start 41b4ea_0.tif (14304x33231)
+[712/754] Finished 41b4ea_0.tif. Saved 232 tiles. Time: 7.4s
+[713/754] Start 46def4_0.tif (9825x39693)
+[713/754] Finished 46def4_0.tif. Saved 356 tiles. Time: 7.0s
+[714/754] Start f95d8b_1.tif (23069x42406)
+[714/754] Finished f95d8b_1.tif. Saved 706 tiles. Time: 16.9s
+[715/754] Start 5c92f8_0.tif (30788x39599)
+[715/754] Finished 5c92f8_0.tif. Saved 861 tiles. Time: 19.9s
+[716/754] Start 8cf32b_0.tif (10618x15943)
+[716/754] Finished 8cf32b_0.tif. Saved 136 tiles. Time: 3.0s
+[717/754] Start 0df5f8_0.tif (18690x35972)
+[717/754] Finished 0df5f8_0.tif. Saved 169 tiles. Time: 9.8s
+[718/754] Start e316dd_1.tif (22037x25810)
+[718/754] Finished e316dd_1.tif. Saved 0 tiles. Time: 8.1s
+[719/754] Start cb4f8e_0.tif (21857x65460)
+[719/754] Finished cb4f8e_0.tif. Saved 2087 tiles. Time: 28.0s
+[720/754] Start 0a47c9_0.tif (47270x53364)
+[720/754] Finished 0a47c9_0.tif. Saved 3937 tiles. Time: 51.9s
+[721/754] Start 0a3ad1_0.tif (25283x38703)
+[721/754] Finished 0a3ad1_0.tif. Saved 1067 tiles. Time: 17.8s
+[722/754] Start 2b7304_0.tif (18571x63635)
+[722/754] Finished 2b7304_0.tif. Saved 848 tiles. Time: 19.6s
+[723/754] Start 1b86c5_0.tif (9920x24947)
+[723/754] Finished 1b86c5_0.tif. Saved 385 tiles. Time: 5.0s
+[724/754] Start 907f7b_0.tif (17558x43355)
+[724/754] Finished 907f7b_0.tif. Saved 1624 tiles. Time: 17.5s
+[725/754] Start 282d0a_0.tif (12084x34158)
+[725/754] Finished 282d0a_0.tif. Saved 403 tiles. Time: 7.2s
+[726/754] Start 845d82_0.tif (35062x71857)
+[726/754] Finished 845d82_0.tif. Saved 4094 tiles. Time: 51.3s
+[727/754] Start 65aadd_0.tif (23085x38717)
+[727/754] Finished 65aadd_0.tif. Saved 1278 tiles. Time: 17.5s
+[728/754] Start 2e3749_0.tif (15426x24918)
+[728/754] Finished 2e3749_0.tif. Saved 179 tiles. Time: 6.0s
+[729/754] Start 623f89_0.tif (49849x12803)
+[729/754] Finished 623f89_0.tif. Saved 440 tiles. Time: 11.3s
+[730/754] Start 288156_0.tif (97705x31890)
+[730/754] Finished 288156_0.tif. Saved 2739 tiles. Time: 57.6s
+[731/754] Start ebb225_0.tif (19715x54410)
+[731/754] Finished ebb225_0.tif. Saved 1565 tiles. Time: 21.1s
+[732/754] Start 1ef6da_0.tif (26295x58985)
+[732/754] Finished 1ef6da_0.tif. Saved 2452 tiles. Time: 31.7s
+[733/754] Start c1b288_0.tif (25341x23010)
+[733/754] Finished c1b288_0.tif. Saved 0 tiles. Time: 7.8s
+[734/754] Start a4c877_1.tif (11297x56098)
+[734/754] Finished a4c877_1.tif. Saved 218 tiles. Time: 9.4s
+[735/754] Start d923a7_0.tif (18566x61787)
+[735/754] Finished d923a7_0.tif. Saved 815 tiles. Time: 19.2s
+[736/754] Start 8408a6_0.tif (8888x10199)
+[736/754] Finished 8408a6_0.tif. Saved 246 tiles. Time: 2.5s
+[737/754] Start 8f71df_0.tif (26352x46075)
+[737/754] Finished 8f71df_0.tif. Saved 10 tiles. Time: 16.7s
+[738/754] Start 245758_0.tif (69789x34143)
+[738/754] Finished 245758_0.tif. Saved 1706 tiles. Time: 42.4s
+[739/754] Start d13031_0.tif (18741x23983)
+[739/754] Finished d13031_0.tif. Saved 588 tiles. Time: 9.6s
+[740/754] Start f58fcb_0.tif (63807x27302)
+[740/754] Finished f58fcb_0.tif. Saved 2405 tiles. Time: 34.2s
+[741/754] Start 56d177_1.tif (16490x34136)
+[741/754] Finished 56d177_1.tif. Saved 156 tiles. Time: 8.3s
+[742/754] Start 5f0b6f_0.tif (13213x28621)
+[742/754] Finished 5f0b6f_0.tif. Saved 111 tiles. Time: 6.8s
+[743/754] Start ae26ae_0.tif (24118x52540)
+[743/754] Finished ae26ae_0.tif. Saved 1826 tiles. Time: 24.9s
+[744/754] Start 7fa91f_1.tif (7786x10206)
+[744/754] Finished 7fa91f_1.tif. Saved 0 tiles. Time: 1.4s
+[745/754] Start 4a4043_0.tif (26345x46996)
+[745/754] Finished 4a4043_0.tif. Saved 1911 tiles. Time: 24.6s
+[746/754] Start d33b23_0.tif (19789x36890)
+[746/754] Finished d33b23_0.tif. Saved 467 tiles. Time: 11.9s
+[747/754] Start abc682_0.tif (7899x50699)
+[747/754] Finished abc682_0.tif. Saved 233 tiles. Time: 6.5s
+[748/754] Start 658beb_1.tif (34142x31293)
+[748/754] Finished 658beb_1.tif. Saved 435 tiles. Time: 16.7s
+[749/754] Start 6747be_0.tif (21974x39642)
+[749/754] Finished 6747be_0.tif. Saved 90 tiles. Time: 12.3s
+[750/754] Start 72df9e_1.tif (23038x41464)
+[750/754] Finished 72df9e_1.tif. Saved 579 tiles. Time: 15.3s
+[751/754] Start 9fdc31_0.tif (14312x30463)
+[751/754] Finished 9fdc31_0.tif. Saved 650 tiles. Time: 8.5s
+[752/754] Start 652471_0.tif (15399x33223)
+[752/754] Finished 652471_0.tif. Saved 387 tiles. Time: 8.6s
+[753/754] Start 09644e_3.tif (21951x43327)
+[753/754] Finished 09644e_3.tif. Saved 927 tiles. Time: 16.3s
+[754/754] Start c3a1a5_0.tif (14382x13862)
+[754/754] Finished c3a1a5_0.tif. Saved 316 tiles. Time: 4.2s
+Preprocessing finished.
+
+Preprocessing finished successfully.
+====================
+Copying tiles to /raid for fast access during training...
+Running training script, reading from /raid/users/inf151561/sol3_job_783388/train_tiles...
+====================
+     Rozpoczynanie Treningu
+====================

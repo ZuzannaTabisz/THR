@@ -1,0 +1,136 @@
+=== STARTING JOB: Wed Oct  1 18:58:05 CEST 2025 ===
+Job is running on node: hgx2
+Conda initialized.
+Permanent tile storage: /home/inf151561/sol3/train_tiles_permanent
+Temporary /raid tile storage for this job: /raid/users/inf151561/sol3_job_779309/train_tiles
+Verifying PyTorch can access the GPU...
+CUDA is available. GPU Name: NVIDIA A100-SXM4-80GB
+Cleaning Python __pycache__ directories...
+Verification successful.
+Permanent tile directory found. Skipping preprocessing.
+Copying tiles to /raid for fast access during training...
+Running training script, reading from /raid/users/inf151561/sol3_job_779309/train_tiles...
+
+========== Starting Fold 1/5 ==========
+--- Fold 1, Epoch 1/10 ---
+  Epoch 1 Results - Train Loss: 0.6110 | Val Score: 0.5373
+    -> New best score (0.5373)! Saving model for fold 1...
+--- Fold 1, Epoch 2/10 ---
+  Epoch 2 Results - Train Loss: 0.5435 | Val Score: 0.5283
+    -> New best score (0.5283)! Saving model for fold 1...
+--- Fold 1, Epoch 3/10 ---
+  Epoch 3 Results - Train Loss: 0.4579 | Val Score: 0.5445
+--- Fold 1, Epoch 4/10 ---
+  Epoch 4 Results - Train Loss: 0.3622 | Val Score: 0.6183
+--- Fold 1, Epoch 5/10 ---
+  Epoch 5 Results - Train Loss: 0.2816 | Val Score: 0.5781
+--- Fold 1, Epoch 6/10 ---
+  Epoch 6 Results - Train Loss: 0.1898 | Val Score: 0.6051
+--- Fold 1, Epoch 7/10 ---
+  Epoch 7 Results - Train Loss: 0.1193 | Val Score: 0.6526
+--- Fold 1, Epoch 8/10 ---
+  Epoch 8 Results - Train Loss: 0.0718 | Val Score: 0.6798
+--- Fold 1, Epoch 9/10 ---
+  Epoch 9 Results - Train Loss: 0.0508 | Val Score: 0.7026
+--- Fold 1, Epoch 10/10 ---
+  Epoch 10 Results - Train Loss: 0.0433 | Val Score: 0.7291
+
+========== Starting Fold 2/5 ==========
+--- Fold 2, Epoch 1/10 ---
+  Epoch 1 Results - Train Loss: 0.6226 | Val Score: 0.5056
+    -> New best score (0.5056)! Saving model for fold 2...
+--- Fold 2, Epoch 2/10 ---
+  Epoch 2 Results - Train Loss: 0.5330 | Val Score: 0.5113
+--- Fold 2, Epoch 3/10 ---
+  Epoch 3 Results - Train Loss: 0.4627 | Val Score: 0.4698
+    -> New best score (0.4698)! Saving model for fold 2...
+--- Fold 2, Epoch 4/10 ---
+  Epoch 4 Results - Train Loss: 0.3783 | Val Score: 0.5044
+--- Fold 2, Epoch 5/10 ---
+  Epoch 5 Results - Train Loss: 0.2787 | Val Score: 0.5652
+--- Fold 2, Epoch 6/10 ---
+  Epoch 6 Results - Train Loss: 0.1862 | Val Score: 0.6053
+--- Fold 2, Epoch 7/10 ---
+  Epoch 7 Results - Train Loss: 0.1142 | Val Score: 0.6205
+--- Fold 2, Epoch 8/10 ---
+  Epoch 8 Results - Train Loss: 0.0768 | Val Score: 0.6356
+--- Fold 2, Epoch 9/10 ---
+  Epoch 9 Results - Train Loss: 0.0502 | Val Score: 0.6841
+--- Fold 2, Epoch 10/10 ---
+  Epoch 10 Results - Train Loss: 0.0417 | Val Score: 0.7006
+
+========== Starting Fold 3/5 ==========
+--- Fold 3, Epoch 1/10 ---
+  Epoch 1 Results - Train Loss: 0.5959 | Val Score: 0.5964
+    -> New best score (0.5964)! Saving model for fold 3...
+--- Fold 3, Epoch 2/10 ---
+  Epoch 2 Results - Train Loss: 0.5200 | Val Score: 0.5653
+    -> New best score (0.5653)! Saving model for fold 3...
+--- Fold 3, Epoch 3/10 ---
+  Epoch 3 Results - Train Loss: 0.4841 | Val Score: 0.7149
+--- Fold 3, Epoch 4/10 ---
+  Epoch 4 Results - Train Loss: 0.3835 | Val Score: 0.6002
+--- Fold 3, Epoch 5/10 ---
+  Epoch 5 Results - Train Loss: 0.2958 | Val Score: 0.6273
+--- Fold 3, Epoch 6/10 ---
+  Epoch 6 Results - Train Loss: 0.1964 | Val Score: 0.6753
+--- Fold 3, Epoch 7/10 ---
+  Epoch 7 Results - Train Loss: 0.1260 | Val Score: 0.9052
+--- Fold 3, Epoch 8/10 ---
+  Epoch 8 Results - Train Loss: 0.0848 | Val Score: 0.8152
+--- Fold 3, Epoch 9/10 ---
+  Epoch 9 Results - Train Loss: 0.0614 | Val Score: 0.8607
+--- Fold 3, Epoch 10/10 ---
+  Epoch 10 Results - Train Loss: 0.0498 | Val Score: 0.8646
+
+========== Starting Fold 4/5 ==========
+--- Fold 4, Epoch 1/10 ---
+  Epoch 1 Results - Train Loss: 0.5855 | Val Score: 0.7356
+    -> New best score (0.7356)! Saving model for fold 4...
+--- Fold 4, Epoch 2/10 ---
+  Epoch 2 Results - Train Loss: 0.5025 | Val Score: 0.7172
+    -> New best score (0.7172)! Saving model for fold 4...
+--- Fold 4, Epoch 3/10 ---
+  Epoch 3 Results - Train Loss: 0.4351 | Val Score: 0.7855
+--- Fold 4, Epoch 4/10 ---
+  Epoch 4 Results - Train Loss: 0.3190 | Val Score: 0.9401
+--- Fold 4, Epoch 5/10 ---
+  Epoch 5 Results - Train Loss: 0.2350 | Val Score: 0.9673
+--- Fold 4, Epoch 6/10 ---
+  Epoch 6 Results - Train Loss: 0.1379 | Val Score: 1.0875
+--- Fold 4, Epoch 7/10 ---
+  Epoch 7 Results - Train Loss: 0.0806 | Val Score: 1.1222
+--- Fold 4, Epoch 8/10 ---
+  Epoch 8 Results - Train Loss: 0.0476 | Val Score: 1.2956
+--- Fold 4, Epoch 9/10 ---
+  Epoch 9 Results - Train Loss: 0.0304 | Val Score: 1.3505
+--- Fold 4, Epoch 10/10 ---
+  Epoch 10 Results - Train Loss: 0.0251 | Val Score: 1.3901
+
+========== Starting Fold 5/5 ==========
+--- Fold 5, Epoch 1/10 ---
+  Epoch 1 Results - Train Loss: 0.6022 | Val Score: 0.6245
+    -> New best score (0.6245)! Saving model for fold 5...
+--- Fold 5, Epoch 2/10 ---
+  Epoch 2 Results - Train Loss: 0.5281 | Val Score: 0.6022
+    -> New best score (0.6022)! Saving model for fold 5...
+--- Fold 5, Epoch 3/10 ---
+  Epoch 3 Results - Train Loss: 0.4824 | Val Score: 0.7228
+--- Fold 5, Epoch 4/10 ---
+  Epoch 4 Results - Train Loss: 0.3851 | Val Score: 0.7475
+--- Fold 5, Epoch 5/10 ---
+  Epoch 5 Results - Train Loss: 0.2869 | Val Score: 0.7631
+--- Fold 5, Epoch 6/10 ---
+  Epoch 6 Results - Train Loss: 0.1874 | Val Score: 0.8306
+--- Fold 5, Epoch 7/10 ---
+  Epoch 7 Results - Train Loss: 0.1193 | Val Score: 0.9189
+--- Fold 5, Epoch 8/10 ---
+  Epoch 8 Results - Train Loss: 0.0731 | Val Score: 1.0308
+--- Fold 5, Epoch 9/10 ---
+  Epoch 9 Results - Train Loss: 0.0544 | Val Score: 1.0418
+--- Fold 5, Epoch 10/10 ---
+  Epoch 10 Results - Train Loss: 0.0447 | Val Score: 1.0747
+
+Total training time: 5.09 hours (305.58 minutes)
+=== JOB FINISHED: Thu Oct  2 00:04:45 CEST 2025 ===
+Cleaning up temporary directory: /raid/users/inf151561/sol3_job_779309

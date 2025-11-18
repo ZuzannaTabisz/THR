@@ -1,0 +1,20 @@
+Training:   0%|          | 0/147 [00:00<?, ?it/s]                                                 Traceback (most recent call last):
+  File "/home/inf151561/sol3/train.py", line 217, in <module>
+    run_training(args)
+  File "/home/inf151561/sol3/train.py", line 188, in run_training
+    train_loss = train_one_epoch(model, optimizer, scheduler, criterion, train_loader, device, scaler)
+  File "/home/inf151561/sol3/train.py", line 62, in train_one_epoch
+    for images, labels in pbar:
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/inf151561/sol3/dataset.py", line 31, in __getitem__
+    assert len(images) == self.cfg.num_instance
+AssertionError

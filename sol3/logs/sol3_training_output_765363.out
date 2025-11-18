@@ -1,0 +1,22 @@
+=== STARTING JOB: Thu Sep 25 15:58:35 CEST 2025 ===
+Job is running on node: hgx2
+Conda initialized.
+Permanent tile storage: /home/inf151561/sol3/train_tiles_permanent
+Temporary /raid tile storage for this job: /raid/users/inf151561/sol3_job_765363/train_tiles
+Permanent tile directory not found or empty. Running preprocessing...
+====================
+Starting Preprocessing Stage
+====================
+Successfully loaded ../data/train.csv with 754 records.
+Tiling images from: ../data/train
+Saving 16 tiles per image to: /home/inf151561/sol3/train_tiles_permanent
+
+Preprocessing finished successfully.
+====================
+Copying tiles to /raid for fast access during training...
+Running training script, reading from /raid/users/inf151561/sol3_job_765363/train_tiles...
+
+========== Starting Fold 1/5 ==========
+--- Fold 1, Epoch 1/10 ---
+=== JOB FINISHED: Thu Sep 25 18:36:22 CEST 2025 ===
+Cleaning up temporary directory: /raid/users/inf151561/sol3_job_765363

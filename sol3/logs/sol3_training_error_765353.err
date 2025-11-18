@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/inf151561/sol3/preprocess.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+ERROR conda.cli.main_run:execute(127): `conda run python3 preprocess.py --image_dir ./data/train --csv_path ./data/train.csv --output_dir /raid/users/inf151561/sol3_job_765353/train_tiles` failed. (See above for error)
+Traceback (most recent call last):
+  File "/home/inf151561/sol3/train.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+ERROR conda.cli.main_run:execute(127): `conda run python3 train.py --tile_dir /raid/users/inf151561/sol3_job_765353/train_tiles` failed. (See above for error)

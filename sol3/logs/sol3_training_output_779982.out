@@ -1,0 +1,239 @@
+=== STARTING JOB: Sat Oct 11 22:40:53 CEST 2025 ===
+Job is running on node: hgx1
+Conda initialized.
+Permanent tile storage: /home/inf151561/sol3/train_tiles_permanent
+Temporary /raid tile storage for this job: /raid/users/inf151561/sol3_job_779982/train_tiles
+Verifying PyTorch can access the GPU...
+CUDA is available. GPU Name: NVIDIA A100-SXM4-80GB
+Cleaning Python __pycache__ directories...
+Verification successful.
+Permanent tile directory found. Skipping preprocessing.
+Copying tiles to /raid for fast access during training...
+Running training script, reading from /raid/users/inf151561/sol3_job_779982/train_tiles...
+====================
+     Rozpoczynanie Treningu
+====================
+
+========== Starting Fold 1/5 ==========
+--- Fold 1, Epoch 1/10 ---
+  Train Loss: 0.6110
+  Val LogLoss (Score): 0.5373 | Val Accuracy: 0.7589
+  Val F1: 0.6963 | Val Precision: 0.7307 | Val Recall: 0.7589 | Val ROC AUC: 0.6971
+    -> Nowy najlepszy wynik (0.5373)! Zapisywanie modelu dla foldu 1...
+--- Fold 1, Epoch 2/10 ---
+  Train Loss: 0.5435
+  Val LogLoss (Score): 0.5283 | Val Accuracy: 0.7518
+  Val F1: 0.6739 | Val Precision: 0.7172 | Val Recall: 0.7518 | Val ROC AUC: 0.6829
+    -> Nowy najlepszy wynik (0.5283)! Zapisywanie modelu dla foldu 1...
+--- Fold 1, Epoch 3/10 ---
+  Train Loss: 0.4579
+  Val LogLoss (Score): 0.5445 | Val Accuracy: 0.7730
+  Val F1: 0.7659 | Val Precision: 0.7619 | Val Recall: 0.7730 | Val ROC AUC: 0.6925
+--- Fold 1, Epoch 4/10 ---
+  Train Loss: 0.3622
+  Val LogLoss (Score): 0.6183 | Val Accuracy: 0.7589
+  Val F1: 0.6878 | Val Precision: 0.7384 | Val Recall: 0.7589 | Val ROC AUC: 0.7188
+--- Fold 1, Epoch 5/10 ---
+  Train Loss: 0.2816
+  Val LogLoss (Score): 0.5781 | Val Accuracy: 0.7376
+  Val F1: 0.7388 | Val Precision: 0.7400 | Val Recall: 0.7376 | Val ROC AUC: 0.6964
+--- Fold 1, Epoch 6/10 ---
+  Train Loss: 0.1898
+  Val LogLoss (Score): 0.6051 | Val Accuracy: 0.7730
+  Val F1: 0.7565 | Val Precision: 0.7536 | Val Recall: 0.7730 | Val ROC AUC: 0.6910
+--- Fold 1, Epoch 7/10 ---
+  Train Loss: 0.1193
+  Val LogLoss (Score): 0.6526 | Val Accuracy: 0.7376
+  Val F1: 0.7308 | Val Precision: 0.7261 | Val Recall: 0.7376 | Val ROC AUC: 0.6902
+--- Fold 1, Epoch 8/10 ---
+  Train Loss: 0.0718
+  Val LogLoss (Score): 0.6798 | Val Accuracy: 0.7660
+  Val F1: 0.7470 | Val Precision: 0.7438 | Val Recall: 0.7660 | Val ROC AUC: 0.6991
+--- Fold 1, Epoch 9/10 ---
+  Train Loss: 0.0508
+  Val LogLoss (Score): 0.7026 | Val Accuracy: 0.7376
+  Val F1: 0.7277 | Val Precision: 0.7217 | Val Recall: 0.7376 | Val ROC AUC: 0.7090
+--- Fold 1, Epoch 10/10 ---
+  Train Loss: 0.0433
+  Val LogLoss (Score): 0.7291 | Val Accuracy: 0.7589
+  Val F1: 0.7449 | Val Precision: 0.7397 | Val Recall: 0.7589 | Val ROC AUC: 0.7056
+
+========== Starting Fold 2/5 ==========
+--- Fold 2, Epoch 1/10 ---
+  Train Loss: 0.6226
+  Val LogLoss (Score): 0.5056 | Val Accuracy: 0.7547
+  Val F1: 0.6492 | Val Precision: 0.5696 | Val Recall: 0.7547 | Val ROC AUC: 0.7549
+    -> Nowy najlepszy wynik (0.5056)! Zapisywanie modelu dla foldu 2...
+--- Fold 2, Epoch 2/10 ---
+  Train Loss: 0.5330
+  Val LogLoss (Score): 0.5113 | Val Accuracy: 0.7925
+  Val F1: 0.7800 | Val Precision: 0.7769 | Val Recall: 0.7925 | Val ROC AUC: 0.7355
+--- Fold 2, Epoch 3/10 ---
+  Train Loss: 0.4627
+  Val LogLoss (Score): 0.4698 | Val Accuracy: 0.8113
+  Val F1: 0.7780 | Val Precision: 0.8094 | Val Recall: 0.8113 | Val ROC AUC: 0.7550
+    -> Nowy najlepszy wynik (0.4698)! Zapisywanie modelu dla foldu 2...
+--- Fold 2, Epoch 4/10 ---
+  Train Loss: 0.3783
+  Val LogLoss (Score): 0.5044 | Val Accuracy: 0.7673
+  Val F1: 0.7175 | Val Precision: 0.7335 | Val Recall: 0.7673 | Val ROC AUC: 0.7226
+--- Fold 2, Epoch 5/10 ---
+  Train Loss: 0.2787
+  Val LogLoss (Score): 0.5652 | Val Accuracy: 0.7107
+  Val F1: 0.7153 | Val Precision: 0.7208 | Val Recall: 0.7107 | Val ROC AUC: 0.7192
+--- Fold 2, Epoch 6/10 ---
+  Train Loss: 0.1862
+  Val LogLoss (Score): 0.6053 | Val Accuracy: 0.7233
+  Val F1: 0.7233 | Val Precision: 0.7233 | Val Recall: 0.7233 | Val ROC AUC: 0.6893
+--- Fold 2, Epoch 7/10 ---
+  Train Loss: 0.1142
+  Val LogLoss (Score): 0.6205 | Val Accuracy: 0.7421
+  Val F1: 0.7331 | Val Precision: 0.7271 | Val Recall: 0.7421 | Val ROC AUC: 0.7022
+--- Fold 2, Epoch 8/10 ---
+  Train Loss: 0.0768
+  Val LogLoss (Score): 0.6356 | Val Accuracy: 0.7358
+  Val F1: 0.7142 | Val Precision: 0.7049 | Val Recall: 0.7358 | Val ROC AUC: 0.7003
+--- Fold 2, Epoch 9/10 ---
+  Train Loss: 0.0502
+  Val LogLoss (Score): 0.6841 | Val Accuracy: 0.7358
+  Val F1: 0.7250 | Val Precision: 0.7181 | Val Recall: 0.7358 | Val ROC AUC: 0.6926
+--- Fold 2, Epoch 10/10 ---
+  Train Loss: 0.0417
+  Val LogLoss (Score): 0.7006 | Val Accuracy: 0.7358
+  Val F1: 0.7181 | Val Precision: 0.7094 | Val Recall: 0.7358 | Val ROC AUC: 0.6915
+
+========== Starting Fold 3/5 ==========
+--- Fold 3, Epoch 1/10 ---
+  Train Loss: 0.5959
+  Val LogLoss (Score): 0.5964 | Val Accuracy: 0.6980
+  Val F1: 0.5805 | Val Precision: 0.7898 | Val Recall: 0.6980 | Val ROC AUC: 0.6723
+    -> Nowy najlepszy wynik (0.5964)! Zapisywanie modelu dla foldu 3...
+--- Fold 3, Epoch 2/10 ---
+  Train Loss: 0.5200
+  Val LogLoss (Score): 0.5653 | Val Accuracy: 0.7114
+  Val F1: 0.6194 | Val Precision: 0.7366 | Val Recall: 0.7114 | Val ROC AUC: 0.7018
+    -> Nowy najlepszy wynik (0.5653)! Zapisywanie modelu dla foldu 3...
+--- Fold 3, Epoch 3/10 ---
+  Train Loss: 0.4841
+  Val LogLoss (Score): 0.7149 | Val Accuracy: 0.6913
+  Val F1: 0.5651 | Val Precision: 0.4779 | Val Recall: 0.6913 | Val ROC AUC: 0.6557
+--- Fold 3, Epoch 4/10 ---
+  Train Loss: 0.3835
+  Val LogLoss (Score): 0.6002 | Val Accuracy: 0.7114
+  Val F1: 0.6628 | Val Precision: 0.6843 | Val Recall: 0.7114 | Val ROC AUC: 0.6901
+--- Fold 3, Epoch 5/10 ---
+  Train Loss: 0.2958
+  Val LogLoss (Score): 0.6273 | Val Accuracy: 0.7047
+  Val F1: 0.6725 | Val Precision: 0.6760 | Val Recall: 0.7047 | Val ROC AUC: 0.6807
+--- Fold 3, Epoch 6/10 ---
+  Train Loss: 0.1964
+  Val LogLoss (Score): 0.6753 | Val Accuracy: 0.7181
+  Val F1: 0.6986 | Val Precision: 0.6978 | Val Recall: 0.7181 | Val ROC AUC: 0.6646
+--- Fold 3, Epoch 7/10 ---
+  Train Loss: 0.1260
+  Val LogLoss (Score): 0.9052 | Val Accuracy: 0.6980
+  Val F1: 0.6194 | Val Precision: 0.6603 | Val Recall: 0.6980 | Val ROC AUC: 0.6346
+--- Fold 3, Epoch 8/10 ---
+  Train Loss: 0.0848
+  Val LogLoss (Score): 0.8152 | Val Accuracy: 0.6980
+  Val F1: 0.6471 | Val Precision: 0.6610 | Val Recall: 0.6980 | Val ROC AUC: 0.6566
+--- Fold 3, Epoch 9/10 ---
+  Train Loss: 0.0614
+  Val LogLoss (Score): 0.8607 | Val Accuracy: 0.6846
+  Val F1: 0.6373 | Val Precision: 0.6408 | Val Recall: 0.6846 | Val ROC AUC: 0.6644
+--- Fold 3, Epoch 10/10 ---
+  Train Loss: 0.0498
+  Val LogLoss (Score): 0.8646 | Val Accuracy: 0.6980
+  Val F1: 0.6580 | Val Precision: 0.6640 | Val Recall: 0.6980 | Val ROC AUC: 0.6607
+
+========== Starting Fold 4/5 ==========
+--- Fold 4, Epoch 1/10 ---
+  Train Loss: 0.5855
+  Val LogLoss (Score): 0.7356 | Val Accuracy: 0.6933
+  Val F1: 0.5903 | Val Precision: 0.6377 | Val Recall: 0.6933 | Val ROC AUC: 0.5113
+    -> Nowy najlepszy wynik (0.7356)! Zapisywanie modelu dla foldu 4...
+--- Fold 4, Epoch 2/10 ---
+  Train Loss: 0.5025
+  Val LogLoss (Score): 0.7172 | Val Accuracy: 0.6267
+  Val F1: 0.6007 | Val Precision: 0.5876 | Val Recall: 0.6267 | Val ROC AUC: 0.5017
+    -> Nowy najlepszy wynik (0.7172)! Zapisywanie modelu dla foldu 4...
+--- Fold 4, Epoch 3/10 ---
+  Train Loss: 0.4351
+  Val LogLoss (Score): 0.7855 | Val Accuracy: 0.6000
+  Val F1: 0.5767 | Val Precision: 0.5622 | Val Recall: 0.6000 | Val ROC AUC: 0.4978
+--- Fold 4, Epoch 4/10 ---
+  Train Loss: 0.3190
+  Val LogLoss (Score): 0.9401 | Val Accuracy: 0.5933
+  Val F1: 0.5945 | Val Precision: 0.5958 | Val Recall: 0.5933 | Val ROC AUC: 0.4822
+--- Fold 4, Epoch 5/10 ---
+  Train Loss: 0.2350
+  Val LogLoss (Score): 0.9673 | Val Accuracy: 0.6467
+  Val F1: 0.6106 | Val Precision: 0.5985 | Val Recall: 0.6467 | Val ROC AUC: 0.5130
+--- Fold 4, Epoch 6/10 ---
+  Train Loss: 0.1379
+  Val LogLoss (Score): 1.0875 | Val Accuracy: 0.6267
+  Val F1: 0.5859 | Val Precision: 0.5682 | Val Recall: 0.6267 | Val ROC AUC: 0.5080
+--- Fold 4, Epoch 7/10 ---
+  Train Loss: 0.0806
+  Val LogLoss (Score): 1.1222 | Val Accuracy: 0.6267
+  Val F1: 0.6125 | Val Precision: 0.6034 | Val Recall: 0.6267 | Val ROC AUC: 0.5420
+--- Fold 4, Epoch 8/10 ---
+  Train Loss: 0.0476
+  Val LogLoss (Score): 1.2956 | Val Accuracy: 0.6067
+  Val F1: 0.6028 | Val Precision: 0.5994 | Val Recall: 0.6067 | Val ROC AUC: 0.5169
+--- Fold 4, Epoch 9/10 ---
+  Train Loss: 0.0304
+  Val LogLoss (Score): 1.3505 | Val Accuracy: 0.6200
+  Val F1: 0.5999 | Val Precision: 0.5881 | Val Recall: 0.6200 | Val ROC AUC: 0.5151
+--- Fold 4, Epoch 10/10 ---
+  Train Loss: 0.0251
+  Val LogLoss (Score): 1.3901 | Val Accuracy: 0.6133
+  Val F1: 0.5908 | Val Precision: 0.5776 | Val Recall: 0.6133 | Val ROC AUC: 0.5109
+
+========== Starting Fold 5/5 ==========
+--- Fold 5, Epoch 1/10 ---
+  Train Loss: 0.6022
+  Val LogLoss (Score): 0.6245 | Val Accuracy: 0.7419
+  Val F1: 0.6435 | Val Precision: 0.6818 | Val Recall: 0.7419 | Val ROC AUC: 0.5888
+    -> Nowy najlepszy wynik (0.6245)! Zapisywanie modelu dla foldu 5...
+--- Fold 5, Epoch 2/10 ---
+  Train Loss: 0.5281
+  Val LogLoss (Score): 0.6022 | Val Accuracy: 0.7226
+  Val F1: 0.6731 | Val Precision: 0.6650 | Val Recall: 0.7226 | Val ROC AUC: 0.5820
+    -> Nowy najlepszy wynik (0.6022)! Zapisywanie modelu dla foldu 5...
+--- Fold 5, Epoch 3/10 ---
+  Train Loss: 0.4824
+  Val LogLoss (Score): 0.7228 | Val Accuracy: 0.7419
+  Val F1: 0.6538 | Val Precision: 0.6843 | Val Recall: 0.7419 | Val ROC AUC: 0.5937
+--- Fold 5, Epoch 4/10 ---
+  Train Loss: 0.3851
+  Val LogLoss (Score): 0.7475 | Val Accuracy: 0.6903
+  Val F1: 0.6617 | Val Precision: 0.6467 | Val Recall: 0.6903 | Val ROC AUC: 0.5486
+--- Fold 5, Epoch 5/10 ---
+  Train Loss: 0.2869
+  Val LogLoss (Score): 0.7631 | Val Accuracy: 0.6516
+  Val F1: 0.6516 | Val Precision: 0.6516 | Val Recall: 0.6516 | Val ROC AUC: 0.5909
+--- Fold 5, Epoch 6/10 ---
+  Train Loss: 0.1874
+  Val LogLoss (Score): 0.8306 | Val Accuracy: 0.7161
+  Val F1: 0.6802 | Val Precision: 0.6693 | Val Recall: 0.7161 | Val ROC AUC: 0.5823
+--- Fold 5, Epoch 7/10 ---
+  Train Loss: 0.1193
+  Val LogLoss (Score): 0.9189 | Val Accuracy: 0.6516
+  Val F1: 0.6340 | Val Precision: 0.6208 | Val Recall: 0.6516 | Val ROC AUC: 0.5777
+--- Fold 5, Epoch 8/10 ---
+  Train Loss: 0.0731
+  Val LogLoss (Score): 1.0308 | Val Accuracy: 0.6387
+  Val F1: 0.6387 | Val Precision: 0.6387 | Val Recall: 0.6387 | Val ROC AUC: 0.5770
+--- Fold 5, Epoch 9/10 ---
+  Train Loss: 0.0544
+  Val LogLoss (Score): 1.0418 | Val Accuracy: 0.6581
+  Val F1: 0.6503 | Val Precision: 0.6437 | Val Recall: 0.6581 | Val ROC AUC: 0.5697
+--- Fold 5, Epoch 10/10 ---
+  Train Loss: 0.0447
+  Val LogLoss (Score): 1.0747 | Val Accuracy: 0.6516
+  Val F1: 0.6454 | Val Precision: 0.6400 | Val Recall: 0.6516 | Val ROC AUC: 0.5752
+
+Total training time: 5.05 hours (302.85 minutes)
+=== JOB FINISHED: Sun Oct 12 03:44:40 CEST 2025 ===
+Cleaning up temporary directory: /raid/users/inf151561/sol3_job_779982

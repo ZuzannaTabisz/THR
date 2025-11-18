@@ -1,0 +1,82 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+AssertionError: PyTorch cannot access CUDA. Check environment or job submission.
+/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/grad_scaler.py:132: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+Training:   0%|          | 0/154 [00:00<?, ?it/s]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   1%|          | 1/154 [07:55<20:13:33, 475.90s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   1%|▏         | 2/154 [15:50<20:03:22, 475.01s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   2%|▏         | 3/154 [23:45<19:56:01, 475.24s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   3%|▎         | 4/154 [31:37<19:45:00, 474.00s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   3%|▎         | 5/154 [39:34<19:38:59, 474.76s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   4%|▍         | 6/154 [47:28<19:30:39, 474.59s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   5%|▍         | 7/154 [55:21<19:21:30, 474.08s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   5%|▌         | 8/154 [1:03:15<19:13:43, 474.13s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   6%|▌         | 9/154 [1:11:10<19:06:03, 474.23s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   6%|▋         | 10/154 [1:19:03<18:57:31, 473.97s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   7%|▋         | 11/154 [1:26:53<18:46:55, 472.84s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   8%|▊         | 12/154 [1:34:46<18:39:12, 472.90s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   8%|▊         | 13/154 [1:42:36<18:29:04, 471.95s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:   9%|▉         | 14/154 [1:50:27<18:20:19, 471.57s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  10%|▉         | 15/154 [1:58:19<18:13:10, 471.87s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  10%|█         | 16/154 [2:06:11<18:04:58, 471.73s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  11%|█         | 17/154 [2:13:48<17:47:08, 467.36s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  12%|█▏        | 18/154 [2:21:20<17:29:05, 462.83s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  12%|█▏        | 19/154 [2:28:51<17:13:13, 459.21s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  13%|█▎        | 20/154 [2:36:36<17:09:17, 460.88s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  14%|█▎        | 21/154 [2:44:25<17:07:10, 463.39s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  14%|█▍        | 22/154 [2:52:15<17:03:47, 465.36s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  15%|█▍        | 23/154 [3:00:06<17:00:05, 467.22s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  16%|█▌        | 24/154 [3:07:59<16:55:29, 468.69s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  16%|█▌        | 25/154 [3:15:49<16:48:40, 469.15s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  17%|█▋        | 26/154 [3:23:40<16:42:21, 469.85s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  18%|█▊        | 27/154 [3:31:30<16:34:46, 469.97s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  18%|█▊        | 28/154 [3:39:20<16:26:51, 469.94s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  19%|█▉        | 29/154 [3:47:15<16:21:51, 471.29s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  19%|█▉        | 30/154 [3:55:06<16:13:46, 471.18s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  20%|██        | 31/154 [4:02:57<16:06:09, 471.30s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  21%|██        | 32/154 [4:10:48<15:58:02, 471.16s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  21%|██▏       | 33/154 [4:18:35<15:47:27, 469.81s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  22%|██▏       | 34/154 [4:26:28<15:41:43, 470.86s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  23%|██▎       | 35/154 [4:34:16<15:32:18, 470.07s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  23%|██▎       | 36/154 [4:42:06<15:24:27, 470.07s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+Training:  24%|██▍       | 37/154 [4:49:58<15:17:46, 470.65s/it]/home/inf151561/miniconda3/envs/mayo_env/lib/python3.9/site-packages/torch/amp/autocast_mode.py:266: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+slurmstepd-hgx1: error: *** JOB 767683 ON hgx1 CANCELLED AT 2025-09-26T21:43:13 ***
